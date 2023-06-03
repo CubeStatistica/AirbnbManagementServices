@@ -3101,47 +3101,67 @@ img {
 /*** 
 
 ====================================================================
-			Specialize Section
+			Services Section
 ====================================================================
 
 ***/
 
-.specialize-section {
-	position: relative;
-	padding: 100px 0;
-}
-
-.specialize-section .sec-title {
-	margin-bottom: 60px;
-}
-
-.services-carousel-two {
-	position: relative;
-	padding-bottom: 80px;
-}
-
-.service-block-two {
+.services-section {
 	position: relative;
 }
 
-.service-block-two .inner-box {
+.services-section .upper-box {
 	position: relative;
-	display: block;
+	padding: 85px 0 270px;
 }
 
-.service-block-two .image-box {
+.services-section .upper-box:before {
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	background-color: #000000;
+	content: "";
+	opacity: .85;
+}
+
+.services-section .services-box {
+	position: relative;
+	margin-top: -270px;
+	padding-bottom: 100px;
+}
+
+.services-section .services-box .auto-container {
+	padding: 0;
+}
+
+.services-carousel {
+	position: relative;
+	padding-bottom: 75px;
+}
+
+.service-block {
+	position: relative;
+	padding: 0 15px 15px;
+}
+
+.service-block .inner-box {
 	position: relative;
 }
 
-.service-block-two .image-box .image {
+.service-block .image-box {
 	position: relative;
-	margin-bottom: 0;
+}
+
+.service-block .image-box .image {
+	position: relative;
 	background-color: #222222;
+	margin-bottom: 0;
 	overflow: hidden;
 }
 
-.service-block-two .image-box .image img {
-	position: relative;
+.service-block .image-box .image img {
 	display: block;
 	width: 100%;
 	height: auto;
@@ -3149,35 +3169,48 @@ img {
 	-moz-transition: all 300ms ease;
 	-ms-transition: all 300ms ease;
 	-o-transition: all 300ms ease;
-	transition: all 500ms ease;
+	transition: all 300ms ease;
 }
 
-.service-block-two .image-box:hover .image img {
+.service-block .inner-box:hover .image-box .image img {
 	opacity: .70;
-	-webkit-transform: scale(1.2);
-	-moz-transform: scale(1.2);
-	-ms-transform: scale(1.2);
-	-o-transform: scale(1.2);
-	transform: scale(1.2);
+	-webkit-transform: scale(1.2) rotate(-5deg);
+	-moz-transform: scale(1.2) rotate(-5deg);
+	-ms-transform: scale(1.2) rotate(-5deg);
+	-o-transform: scale(1.2) rotate(-5deg);
+	transform: scale(1.2) rotate(-5deg);
 }
 
-
-.service-block-two .caption-box {
+.service-block .lower-content {
 	position: relative;
-	padding: 25px 0px;
+	padding: 35px 25px;
+	text-align: center;
+	-webkit-transition: all 300ms ease;
+	-moz-transition: all 300ms ease;
+	-ms-transition: all 300ms ease;
+	-o-transition: all 300ms ease;
+	transition: all 300ms ease;
 }
 
-.service-block-two .caption-box h3 {
+.service-block .inner-box:hover .lower-content {
+	-webkit-box-shadow: 0 8px 15px rgba(0, 0, 0, 0.10);
+	-moz-box-shadow: 0 8px 15px rgba(0, 0, 0, 0.10);
+	-ms-box-shadow: 0 8px 15px rgba(0, 0, 0, 0.10);
+	-o-box-shadow: 0 8px 15px rgba(0, 0, 0, 0.10);
+	box-shadow: 0 8px 15px rgba(0, 0, 0, 0.10);
+}
+
+.service-block .lower-content h3 {
 	position: relative;
 	display: block;
-	font-size: 20px;
-	line-height: 1.3em;
+	font-size: 18px;
+	line-height: 30px;
 	color: #222222;
-	font-weight: 400;
-	margin-bottom: 5px;
+	font-weight: 500;
+	margin-bottom: 18px;
 }
 
-.service-block-two .caption-box h3 a {
+.service-block .lower-content h3 a {
 	color: #222222;
 	display: inline-block;
 	-webkit-transition: all 300ms ease;
@@ -3187,17 +3220,32 @@ img {
 	transition: all 300ms ease;
 }
 
-.service-block-two .caption-box h3 a:hover {
-	color: #ff8a00;
+.service-block .lower-content h3 a:hover {
+	color: #ffad00;
 }
 
-.service-block-two .link-box a {
+.service-block .lower-content .text {
+	position: relative;
+	display: block;
+	font-size: 14px;
+	line-height: 30px;
+	color: #777777;
+	font-weight: 400;
+	margin-bottom: 27px;
+}
+
+.service-block .lower-content .link-box {
+	position: relative;
+}
+
+.service-block .lower-content .link-box a {
 	position: relative;
 	display: inline-block;
-	font-size: 15px;
-	line-height: 20px;
-	color: #ff8a00;
-	font-weight: 400;
+	font-size: 14px;
+	line-height: 1.2em;
+	color: #222222;
+	font-weight: 500;
+	font-family: "Rubik", sans-serif;
 	-webkit-transition: all 300ms ease;
 	-moz-transition: all 300ms ease;
 	-ms-transition: all 300ms ease;
@@ -3205,15 +3253,19 @@ img {
 	transition: all 300ms ease;
 }
 
-.service-block-two .link-box a:hover {
-	color: #222222;
+.service-block .lower-content .link-box a i {
+	margin-left: 5px;
 }
 
-.services-carousel-two .owl-nav {
+.service-block .lower-content .link-box a:hover {
+	color: #ffad00;
+}
+
+.services-carousel .owl-nav {
 	display: none;
 }
 
-.services-carousel-two .owl-dots {
+.services-carousel .owl-dots {
 	position: absolute;
 	left: 0;
 	bottom: 0;
@@ -3221,7 +3273,7 @@ img {
 	text-align: center;
 }
 
-.services-carousel-two .owl-dot {
+.services-carousel .owl-dot {
 	position: relative;
 	display: inline-block;
 	height: 16px;
@@ -3236,8 +3288,8 @@ img {
 	margin-bottom: 7px;
 }
 
-.services-carousel-two .owl-dot:hover,
-.services-carousel-two .owl-dot.active {
+.services-carousel .owl-dot:hover,
+.services-carousel .owl-dot.active {
 	height: 30px;
 	margin-bottom: 0;
 	background-color: #ff8a00;
