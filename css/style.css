@@ -4295,17 +4295,14 @@ img {
 	background-color: #1da1f2;
 }
 
-.social-icon-colored li.google-plus a {
-	background-color: #d73d32;
+.social-icon-colored li.whatsapp a {
+	background-color: #29A71A;
 }
 
-.social-icon-colored li.pinterest a {
-	background-color: #bd081c;
+.social-icon-colored li.linkedin a {
+	background-color: #0A66C2;
 }
 
-.social-icon-colored li.mail a {
-	background-color: #7b8285;
-}
 
 .social-icon-colored li a:hover {
 	background-color: #222222;
