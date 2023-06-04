@@ -3552,18 +3552,18 @@ img {
 	margin-bottom: 12px;
 }
 
-.page-title h2 {
+.page-title h3 {
 	position: relative;
 	color: #ffffff;
 	font-weight: 800;
 	line-height: 1.2em;
 	margin-bottom: 10px;
-	font-size: 40px;
+	font-size: 35px;
 	padding-bottom: 18px;
 	text-transform: capitalize;
 }
 
-.page-title h2:before {
+.page-title h3:before {
 	position: absolute;
 	content: '';
 	left: 0px;
@@ -3573,7 +3573,7 @@ img {
 	background-color: #cccccc;
 }
 
-.page-title h2:after {
+.page-title h3:after {
 	position: absolute;
 	content: '';
 	left: 0px;
