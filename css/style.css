@@ -3552,18 +3552,18 @@ img {
 	margin-bottom: 12px;
 }
 
-.page-title h2 {
+.page-title h3 {
 	position: relative;
 	color: #ffffff;
 	font-weight: 800;
 	line-height: 1.2em;
 	margin-bottom: 10px;
-	font-size: 40px;
+	font-size: 35px;
 	padding-bottom: 18px;
 	text-transform: capitalize;
 }
 
-.page-title h2:before {
+.page-title h3:before {
 	position: absolute;
 	content: '';
 	left: 0px;
@@ -3573,7 +3573,7 @@ img {
 	background-color: #cccccc;
 }
 
-.page-title h2:after {
+.page-title h3:after {
 	position: absolute;
 	content: '';
 	left: 0px;
@@ -4135,4 +4135,259 @@ img {
 	-ms-transform: scale(1);
 	-o-transform: scale(1);
 	transform: scale(1);
+}
+
+/*** 
+
+====================================================================
+		Blog Detail
+====================================================================
+
+***/
+
+.blog-detail .news-block-two .caption-box .inner {
+	padding: 35px 40px 5px;
+}
+
+.blog-detail .news-block-two .caption-box .info {
+	margin-bottom: 15px;
+}
+
+.blog-detail .news-block-two .caption-box h3 {
+	font-size: 24px;
+	margin-bottom: 15px;
+}
+
+.blog-detail .news-block-two .caption-box p {
+	position: relative;
+	font-size: 14px;
+	line-height: 30px;
+	color: #777777;
+	font-weight: 400;
+	margin-bottom: 30px;
+}
+
+.blog-detail .news-block-two .caption-box blockquote {
+	position: relative;
+	display: block;
+	padding-left: 40px;
+	font-size: 16px;
+	line-height: 30px;
+	color: #252525;
+	font-weight: 400;
+	font-style: italic;
+	margin-bottom: 30px;
+	padding-top: 15px;
+}
+
+.blog-detail .news-block-two .caption-box blockquote .icon {
+	position: absolute;
+	left: 0;
+	top: 0;
+	font-size: 24px;
+	line-height: 30px;
+	color: #d7a449;
+	font-weight: 400;
+}
+
+.blog-detail .tags {
+	position: relative;
+	margin-bottom: 30px;
+}
+
+.blog-detail .tags .title {
+	position: relative;
+	float: left;
+	margin-right: 23px;
+	font-size: 15px;
+	line-height: 25px;
+	color: #222222;
+	font-weight: 500;
+	font-family: "Rubik", sans-serif;
+	padding: 5px 0;
+	margin-bottom: 10px;
+}
+
+.blog-detail .tags ul li {
+	position: relative;
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+.blog-detail .tags ul li a {
+	position: relative;
+	display: block;
+	font-size: 14px;
+	line-height: 25px;
+	color: #939292;
+	font-weight: 400;
+	padding: 5px 25px;
+	border: 1px solid #e1e1e1;
+	border-radius: 30px;
+	-webkit-transition: all 300ms ease;
+	-moz-transition: all 300ms ease;
+	-ms-transition: all 300ms ease;
+	-o-transition: all 300ms ease;
+	transition: all 300ms ease;
+}
+
+.blog-detail .tags ul li a:hover {
+	background-color: #222222;
+	color: #ffffff;
+}
+
+.blog-detail .share-option {
+	position: relative;
+	margin-bottom: 60px;
+}
+
+.blog-detail .share-option .title {
+	position: relative;
+	display: block;
+	margin-right: 23px;
+	font-size: 15px;
+	line-height: 25px;
+	color: #222222;
+	font-weight: 500;
+	padding: 5px 0;
+	margin-bottom: 10px;
+	font-family: "Rubik", sans-serif;
+}
+
+.social-icon-colored {
+	position: relative;
+}
+
+.social-icon-colored li {
+	position: relative;
+	float: left;
+	margin-right: 6px;
+	margin-bottom: 10px;
+}
+
+.social-icon-colored li a {
+	position: relative;
+	display: block;
+	font-size: 14px;
+	line-height: 25px;
+	color: #ffffff;
+	font-weight: 500;
+	padding: 5px 15px;
+	background-color: #222222;
+	border-radius: 30px;
+	-webkit-transition: all 300ms ease;
+	-moz-transition: all 300ms ease;
+	-ms-transition: all 300ms ease;
+	-o-transition: all 300ms ease;
+	transition: all 300ms ease;
+}
+
+.social-icon-colored li a i {
+	margin-right: 10px;
+}
+
+.social-icon-colored li.facebook a {
+	background-color: #3b5998;
+}
+
+.social-icon-colored li.twitter a {
+	background-color: #1da1f2;
+}
+
+.social-icon-colored li.whatsapp a {
+	background-color: #29A71A;
+}
+
+.social-icon-colored li.linkedin a {
+	background-color: #0A66C2;
+}
+
+
+.social-icon-colored li a:hover {
+	background-color: #222222;
+	color: #ffffff;
+}
+
+/***
+
+==================================================================
+			Sidebar Page Container
+==================================================================
+
+***/
+
+.sidebar-page-container {
+	position: relative;
+	overflow: hidden;
+	padding: 100px 0 50px;
+}
+
+.sidebar-page-container .sidebar-side,
+.sidebar-page-container .content-side {
+	position: relative;
+	margin-bottom: 50px;
+}
+
+.sidebar-widget {
+	position: relative;
+	margin-bottom: 55px;
+}
+
+.sidebar-side .sidebar-widget:last-child {
+	margin-bottom: 0;
+}
+
+.sidebar-page-container .sidebar-title {
+	position: relative;
+	margin-bottom: 25px;
+}
+
+.sidebar-page-container .sidebar-title h3 {
+	position: relative;
+	display: inline-block;
+	font-size: 24px;
+	line-height: 1.2em;
+	color: #222222;
+	font-weight: 500;
+	text-transform: capitalize;
+}
+
+
+/*=== Tags ===*/
+
+.tag-list {
+	position: relative;
+	display: block;
+}
+
+.tag-list li {
+	position: relative;
+	float: left;
+	margin-bottom: 13px;
+	margin-right: 10px;
+}
+
+.tag-list li a {
+	position: relative;
+	display: block;
+	font-size: 14px;
+	color: #777777;
+	line-height: 25px;
+	padding: 10px 35px;
+	font-weight: 400;
+	text-align: center;
+	border-radius: 50px;
+	text-transform: uppercase;
+	border: 1px solid #dddddd;
+	-webkit-transition: all 300ms ease;
+	-moz-transition: all 300ms ease;
+	-ms-transition: all 300ms ease;
+	-o-transition: all 300ms ease;
+	transition: all 300ms ease;
+}
+
+.tag-list li a:hover {
+	background-color: #222222;
+	color: #ffffff;
 }
