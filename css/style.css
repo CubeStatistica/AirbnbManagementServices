@@ -3661,6 +3661,7 @@ img {
 .testimonial-block-two .inner-box {
 	position: relative;
 	padding: 40px 60px;
+	height: 450px;
 	border: 1px dashed #bbbbbb;
 	background-color: #ffffff;
 
@@ -3669,7 +3670,7 @@ img {
 .testimonial-block-two .inner-box .text {
 	position: relative;
 	display: block;
-	font-size: 16px;
+	font-size: 14px;
 	line-height: 30px;
 	color: #777777;
 	font-weight: 400;
