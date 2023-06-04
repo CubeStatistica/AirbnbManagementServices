@@ -3303,6 +3303,58 @@ img {
 ====================================================================
 
 ***/
+.contact-info-sec {
+	margin-top: 90px;
+}
+
+.contact-info-box {
+	float: left;
+	width: 100%;
+	padding: 20px;
+}
+
+.contact-info-box>i {
+	font-size: 40px;
+	color: #999;
+	margin-bottom: 10px;
+}
+
+.contact-info-box>h5 {
+	font-size: 17px;
+	font-weight: 700;
+	color: #333;
+	margin-bottom: 10px;
+}
+
+.contact-info-box>p {
+	font-size: 13px;
+	color: #666;
+	margin: 0;
+	line-height: 24px;
+	width: 100%;
+}
+
+.contact-info-sec>.row>div:last-child .contact-info-box {
+	border-right: 0;
+}
+
+/*===== Contact Form =====*/
+.contact-form-wrapper {}
+
+.contact-form-inner {
+	max-width: 960px;
+	display: inline-block;
+	width: 100%;
+	margin-top: 85px;
+}
+
+.contact-info-sec>.row>div {
+	border-right: 2px solid rgba(204, 204, 204, 0.5);
+}
+
+.contact-info-sec>.row>div:last-child {
+	border: 0 none;
+}
 
 .contact-page-section {
 	position: relative;
@@ -3435,7 +3487,7 @@ img {
 	top: 0;
 	font-size: 40px;
 	line-height: 1.4em;
-	color: #ab7442;
+	color: #ff8a00;
 }
 
 .contact-page-section .contact-info li strong {
@@ -3458,7 +3510,7 @@ img {
 }
 
 .contact-page-section .contact-info li a:hover {
-	color: #ab7442;
+	color: #ff8a00;
 }
 
 /*** 
@@ -3528,7 +3580,7 @@ img {
 	bottom: 0px;
 	width: 25px;
 	height: 3px;
-	background-color: #ab7442;
+	background-color: #ff8a00;
 }
 
 .page-breadcrumb {
@@ -3536,7 +3588,7 @@ img {
 	padding: 18px 30px;
 	margin-top: 10px;
 	display: inline-block;
-	background-color: #ab7442;
+	background-color: #ff8a00;
 	border-radius: 0px 0px 10px 0px;
 }
 
