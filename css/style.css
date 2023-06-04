@@ -2711,13 +2711,13 @@ img {
 
 .news-section {
 	position: relative;
-	padding: 100px 0 70px;
+	/* padding: 100px 0 70px; */
 }
 
 .news-section:before {
 	position: absolute;
 	right: 0;
-	top: 140px;
+	/* top: 140px; */
 	height: 347px;
 	width: 157px;
 	background-image: url(../images/icons/icon-dots.png);
