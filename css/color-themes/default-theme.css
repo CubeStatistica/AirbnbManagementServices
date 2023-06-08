@@ -28,7 +28,7 @@
 .checkout-page .default-links li .fa,
 .shop-comment-form .rating-box .rating a:hover,
 .order-box ul li span,
-.service-detail .prod-tabs .tab-btns .tab-btn:hover, 
+.service-detail .prod-tabs .tab-btns .tab-btn:hover,
 .service-detail .prod-tabs .tab-btns .tab-btn.active-btn,
 .service-detail .inner-box ul li:before,
 .help-box-two .inner .title,
@@ -40,16 +40,16 @@
 .page-title .bread-crumb li,
 .header-style-four .header-top .top-right li a:hover,
 .process-block .link-box a,
-.banner-carousel-two .owl-next:hover, 
+.banner-carousel-two .owl-next:hover,
 .banner-carousel-two .owl-prev:hover,
 .specialize-section-two .title-column .text-box h4,
-.banner-section-three .social-links li a:hover span, 
+.banner-section-three .social-links li a:hover span,
 .banner-section-three .social-links li a:hover,
 .banner-section-three .contact-info li a:hover,
-.sidenav-bar .side-nav .navigation > li:hover > a, 
-.sidenav-bar .side-nav .navigation > li > ul > li:hover > a, 
-.sidenav-bar .side-nav .navigation > li.current > a, 
-.sidenav-bar .side-nav .navigation > li > ul > li.current > a,
+.sidenav-bar .side-nav .navigation>li:hover>a,
+.sidenav-bar .side-nav .navigation>li>ul>li:hover>a,
+.sidenav-bar .side-nav .navigation>li.current>a,
+.sidenav-bar .side-nav .navigation>li>ul>li.current>a,
 .product-block .info-box .price,
 .service-block .lower-content .link-box a:hover,
 .service-block .lower-content h3 a:hover,
@@ -105,17 +105,17 @@
 .projects-carousel .owl-prev:hover,
 .carousel-outer .thumbs-carousel .owl-next:hover,
 .carousel-outer .thumbs-carousel .owl-prev:hover,
-.sticky-header .main-menu .navigation > li:hover > a,
-.sticky-header .main-menu .navigation > li.current > a,
-.sticky-header .main-menu .navigation > li.current-menu-item > a,
-.main-menu .navigation > li.current > a,
-.main-menu .navigation > li:hover > a,
+.sticky-header .main-menu .navigation>li:hover>a,
+.sticky-header .main-menu .navigation>li.current>a,
+.sticky-header .main-menu .navigation>li.current-menu-item>a,
+.main-menu .navigation>li.current>a,
+.main-menu .navigation>li:hover>a,
 .header-style-four .search-box-btn,
 .main-header .search-box-btn:hover,
 .list-style-two li:before,
 .btn-style-eight,
 .btn-style-four:hover,
-a{
+a {
 	color: #ff8a00;
 }
 
@@ -150,7 +150,7 @@ a{
 .team-block .inner-box:hover .image-box .name,
 .banner-section-two .owl-dot.active,
 .cart-section .totals-table .proceed-btn,
-.header-style-two .main-menu .navigation > li > a:before,
+.header-style-two .main-menu .navigation>li>a:before,
 .feature-block .inner-box:hover,
 .specialize-section-two .thumbs-carousel .thumb-box .overlay:before,
 .process-block .inner-box:hover .count,
@@ -159,8 +159,8 @@ a{
 .service-detail .image-box .owl-next:hover,
 .service-detail .image-box .owl-prev:hover,
 .services-carousel .owl-dot:hover,
-.header-style-one .main-menu .navigation > li > a:before,
-.header-style-three .main-menu .navigation > li > a:before,
+.header-style-one .main-menu .navigation>li>a:before,
+.header-style-three .main-menu .navigation>li>a:before,
 .services-carousel .owl-dot.active,
 .accordion-box .block .acc-btn.active,
 .main-header .header-top,
@@ -169,7 +169,7 @@ a{
 .btn-style-eight:hover,
 .btn-style-six:hover,
 .main-footer .gallery-widget .image a:before,
-.btn-style-five{
+.btn-style-five {
 	background-color: #ff8a00;
 }
 
@@ -177,7 +177,7 @@ a{
 .checkout-form input:focus,
 .checkout-form select:focus,
 .checkout-form textarea:focus,
-.banner-carousel .owl-next:hover:before, 
+.banner-carousel .owl-next:hover:before,
 .banner-carousel .owl-prev:hover:before,
 .shop-comment-form .form-group input[type="text"]:focus,
 .shop-comment-form .form-group input[type="password"]:focus,
@@ -185,7 +185,7 @@ a{
 .shop-comment-form .form-group input[type="email"]:focus,
 .shop-comment-form .form-group select:focus,
 .shop-comment-form .form-group textarea:focus,
-.range-slider-one .ui-state-default, 
+.range-slider-one .ui-state-default,
 .range-slider-one .ui-widget-content .ui-state-default,
 .login-form .form-group input[type="text"]:focus,
 .login-form .form-group input[type="password"]:focus,
@@ -207,7 +207,7 @@ a{
 .discount-form .form-group select:focus,
 .discount-form .form-group textarea:focus,
 .styled-pagination li.next-post a:hover,
-.banner-carousel-two .owl-next:hover:before, 
+.banner-carousel-two .owl-next:hover:before,
 .banner-carousel-two .owl-prev:hover:before,
 .styled-pagination li.prev-post a:hover,
 .accordion-box .block .acc-btn.active,
@@ -228,76 +228,76 @@ a{
 .main-header .search-panel select:focus,
 .btn-style-eight,
 .btn-style-two:hover,
-.btn-style-two{
+.btn-style-two {
 	border-color: #ff8a00;
 }
 
 .payment-box .payment-options li .radio-option label .small-text:before,
 .rtl .main-footer .footer-bottom .copyright-text:before,
-.main-footer .footer-bottom .copyright-text:before{
+.main-footer .footer-bottom .copyright-text:before {
 	border-bottom-color: #ff8a00;
 }
 
 .cat-list li:hover,
 .cat-list li.active,
-.main-menu .navigation > li .mega-menu-bar .column > ul > li > a:hover,
-.main-menu .navigation > li > ul > li  > ul > li > a:hover,
-.main-menu .navigation > li > ul > li:hover > a{
+.main-menu .navigation>li .mega-menu-bar .column>ul>li>a:hover,
+.main-menu .navigation>li>ul>li>ul>li>a:hover,
+.main-menu .navigation>li>ul>li:hover>a {
 	border-left-color: #ff8a00;
 }
 
 .rtl .cat-list li.active,
 .rtl .cat-list li:hover,
-.rtl .main-menu .navigation > li .mega-menu-bar .column > ul > li > a:hover,
-.rtl .main-menu .navigation > li > ul > li > ul > li:hover > a,
-.rtl .main-menu .navigation > li > ul > li:hover > a{
+.rtl .main-menu .navigation>li .mega-menu-bar .column>ul>li>a:hover,
+.rtl .main-menu .navigation>li>ul>li>ul>li:hover>a,
+.rtl .main-menu .navigation>li>ul>li:hover>a {
 	border-right-color: #ff8a00;
 }
 
 .btn-style-two:hover,
 .btn-style-three:hover,
-.fact-counter .count-box:hover:before{
+.fact-counter .count-box:hover:before {
 	box-shadow: #ff8a00 0 0px 0px 40px inset;
 }
 
 /*=== Gradient Color ===*/
-.banner-carousel-three .owl-prev, 
+.banner-carousel-three .owl-prev,
 .banner-carousel-three .owl-next,
-.btn-style-one{
-	background: rgb(255,174,0);
+.btn-style-one {
+	background: rgb(255, 174, 0);
 	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmYWUwMCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmZjhhMDAiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
-	background: -moz-linear-gradient(top, rgba(255,174,0,1) 0%, rgba(255,138,0,1) 100%);
-	background: -webkit-linear-gradient(top, rgba(255,174,0,1) 0%,rgba(255,138,0,1) 100%);
-	background: linear-gradient(to bottom, rgba(255,174,0,1) 0%,rgba(255,138,0,1) 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffae00', endColorstr='#ff8a00',GradientType=0 );
+	background: -moz-linear-gradient(top, rgba(255, 174, 0, 1) 0%, rgba(255, 138, 0, 1) 100%);
+	background: -webkit-linear-gradient(top, rgba(255, 174, 0, 1) 0%, rgba(255, 138, 0, 1) 100%);
+	background: linear-gradient(to bottom, rgba(255, 174, 0, 1) 0%, rgba(255, 138, 0, 1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffae00', endColorstr='#ff8a00', GradientType=0);
 }
 
-@media only screen and (max-width: 767px){
-	
-	.main-menu .navbar-header .navbar-toggler .icon{
-		color:#ff8a00;
+@media only screen and (max-width: 767px) {
+
+	.main-menu .navbar-header .navbar-toggler .icon {
+		color: #ff8a00;
 	}
-	
+
 	.main-menu .navbar-header .navbar-toggle,
-	.main-menu .navbar-collapse > .navigation,
-	.main-menu .navbar-collapse > .navigation > li > ul,
-	.main-menu .navbar-collapse > .navigation > li > ul > li > ul,
-	.main-menu .navbar-collapse > .navigation > li > a,
-	.main-menu .navbar-collapse > .navigation > li > ul > li > a,
-	.main-menu .navbar-collapse > .navigation > li > ul > li > ul > li > a,
-	.main-menu .navbar-collapse > .navigation > li > a:hover,
-	.main-menu .navbar-collapse > .navigation > li > a:active,
-	.main-menu .navbar-collapse > .navigation > li > a:focus,
-	.main-menu .navbar-collapse > .navigation > li:hover > a,
-	.main-menu .navbar-collapse > .navigation > li > ul > li:hover > a,
-	.main-menu .navbar-collapse > .navigation > li > ul > li > ul > li:hover > a,
-	.main-menu .navigation > li .mega-menu-bar .column > ul > li > a,
-	.main-menu .navigation > li .mega-menu-bar .column > ul > li:hover > a,
-	.main-menu .navigation > li .mega-menu-bar .column > ul > li > a,
-	.main-menu .navigation > li .mega-menu-bar .column > ul > li:hover > a,
-	.main-menu .navbar-collapse > .navigation > li.current > a,
-	.main-menu .navbar-collapse > .navigation > li.current-menu-item > a{
-		background-color:#ff8a00;
+	.main-menu .navbar-collapse>.navigation,
+	.main-menu .navbar-collapse>.navigation>li>ul,
+	.main-menu .navbar-collapse>.navigation>li>ul>li>ul,
+	.main-menu .navbar-collapse>.navigation>li>a,
+	.main-menu .navbar-collapse>.navigation>li>ul>li>a,
+	.main-menu .navbar-collapse>.navigation>li>ul>li>ul>li>a,
+	.main-menu .navbar-collapse>.navigation>li>a:hover,
+	.main-menu .navbar-collapse>.navigation>li>a:active,
+	.main-menu .navbar-collapse>.navigation>li>a:focus,
+	.main-menu .navbar-collapse>.navigation>li:hover>a,
+	.main-menu .navbar-collapse>.navigation>li>ul>li:hover>a,
+	.main-menu .navbar-collapse>.navigation>li>ul>li>ul>li:hover>a,
+	.main-menu .navigation>li .mega-menu-bar .column>ul>li>a,
+	.main-menu .navigation>li .mega-menu-bar .column>ul>li:hover>a,
+	.main-menu .navigation>li .mega-menu-bar .column>ul>li>a,
+	.main-menu .navigation>li .mega-menu-bar .column>ul>li:hover>a,
+	.main-menu .navbar-collapse>.navigation>li.current>a,
+	.main-menu .navbar-collapse>.navigation>li.current-menu-item>a {
+		background-color: #ffff;
 	}
-	
+
 }
