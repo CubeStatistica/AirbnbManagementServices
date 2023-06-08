@@ -167,14 +167,14 @@ li {
 	box-shadow: rgba(255, 255, 255, 0) 0 0px 0px 0px inset;
 }
 
-.btn-style-three:hover {
+/* .btn-style-three:hover {
 	color: #ffffff;
 	-webkit-box-shadow: rgba(255, 138, 0, 1) 0 0px 0px 40px inset;
 	-moz-box-shadow: rgba(255, 138, 0, 1) 0 0px 0px 40px inset;
 	-ms-box-shadow: rgba(255, 138, 0, 1) 0 0px 0px 40px inset;
 	-o-box-shadow: rgba(255, 138, 0, 1) 0 0px 0px 40px inset;
 	box-shadow: rgba(255, 138, 0, 1) 0 0px 0px 40px inset;
-}
+} */
 
 img {
 	display: inline-block;
@@ -361,7 +361,7 @@ img {
 
 .main-menu .navigation>li>ul>li>ul>li:hover>a {
 	color: #25262c;
-	background: #ffffff;
+	/* background: #ffffff; */
 }
 
 .main-menu .navigation>li>ul>li>ul>li.dropdown>a:after {
@@ -3868,7 +3868,7 @@ img {
 	top: 0;
 	font-size: 16px;
 	line-height: 30px;
-	color: #e39c05;
+	color: #5a56e3;
 	font-weight: 400;
 	content: "\f141";
 	font-family: "FontAwesome";
@@ -4088,7 +4088,7 @@ img {
 	top: 0;
 	font-size: 24px;
 	line-height: 30px;
-	color: #d7a449;
+	color: #5a56e3;
 	font-weight: 400;
 }
 
