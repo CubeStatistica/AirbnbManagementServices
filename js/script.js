@@ -752,3 +752,61 @@ function shareOnWhatsapp2() {
 		'https://cubestatistica.github.io/AirbnbManagementServices/blog-2.html';
 	window.open(navUrl, '_blank');
 }
+
+// For Blog 3 //
+
+function shareOnFacebook3() {
+	const navUrl = 'https://www.facebook.com/sharer/sharer.php?u=' +
+		'https://cubestatistica.github.io/AirbnbManagementServices/blog-3.html';
+	window.open(navUrl, '_blank');
+}
+
+function shareOnTwitter3() {
+	const navUrl =
+		'https://twitter.com/intent/tweet?text=' +
+		'https://cubestatistica.github.io/AirbnbManagementServices/blog-3.html';
+	window.open(navUrl, '_blank');
+}
+
+function shareOnLinkedin3() {
+	const navUrl =
+		'https://www.linkedin.com/shareArticle?mini=true&url=' +
+		'https://cubestatistica.github.io/AirbnbManagementServices/blog-3.html';
+	window.open(navUrl, '_blank');
+}
+
+function shareOnWhatsapp3() {
+	const navUrl =
+		'https://api.whatsapp.com/send/?text=' +
+		'https://cubestatistica.github.io/AirbnbManagementServices/blog-3.html';
+	window.open(navUrl, '_blank');
+}
+
+// For Blog 4 //
+
+function shareOnFacebook4() {
+	const navUrl = 'https://www.facebook.com/sharer/sharer.php?u=' +
+		'https://cubestatistica.github.io/AirbnbManagementServices/blog-4.html';
+	window.open(navUrl, '_blank');
+}
+
+function shareOnTwitter4() {
+	const navUrl =
+		'https://twitter.com/intent/tweet?text=' +
+		'https://cubestatistica.github.io/AirbnbManagementServices/blog-4.html';
+	window.open(navUrl, '_blank');
+}
+
+function shareOnLinkedin4() {
+	const navUrl =
+		'https://www.linkedin.com/shareArticle?mini=true&url=' +
+		'https://cubestatistica.github.io/AirbnbManagementServices/blog-4.html';
+	window.open(navUrl, '_blank');
+}
+
+function shareOnWhatsapp4() {
+	const navUrl =
+		'https://api.whatsapp.com/send/?text=' +
+		'https://cubestatistica.github.io/AirbnbManagementServices/blog-4.html';
+	window.open(navUrl, '_blank');
+}
