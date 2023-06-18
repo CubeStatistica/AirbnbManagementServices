@@ -17,6 +17,9 @@
 
     <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
     <link rel="icon" href="images/favicon.png" type="image/x-icon">
+    <!-- Vendor CSS Files -->
+    <link href="vendor/animate.css/animate.min.css" rel="stylesheet">
+
     <!-- Responsive -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
@@ -117,70 +120,37 @@
         <!--Form Back Drop-->
         <div class="form-back-drop"></div>
 
-        <!-- hero section start -->
-        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
-                    aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-                    aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-                    aria-label="Slide 3"></button>
-            </div>
+        <!-- ======= Hero Section ======= -->
+        <section id="hero">
+            <div id="heroCarousel" data-bs-interval="5000" class="carousel slide carousel-fade" data-bs-ride="carousel">
 
-            <div class="carousel-inner">
-                <div class="carousel-item carousel-item1 active">
-                    <div class="carousel-caption d-block">
-                        <h5 class="animate__animated animate__fadeInDown"
-                            style="animation-duration: 1.7s; animation-delay: 0.6s">We create beautiful home interior
-                            design
-                        </h5>
-                        <p class="animate__animated animate__fadeInDown"
-                            style="animation-duration: 1.7s; animation-delay: 1.7s">
-                            <a href="#">Learn More</a>
-                        </p>
-                    </div>
-                </div>
+                <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
 
-                <div class="carousel-item carousel-item2">
-                    <div class="carousel-caption d-block">
-                        <h5 class="animate__animated animate__fadeInDown"
-                            style="animation-duration: 1.7s; animation-delay: 0.6s">Luxury Interior design for your
-                            dream
-                            living</h5>
-                        <p class="animate__animated animate__fadeInDown"
-                            style="animation-duration: 1.7s; animation-delay: 1.7s">
-                            <a href="#">Learn More</a>
-                        </p>
-                    </div>
-                </div>
+                <div class="carousel-inner" role="listbox">
 
-                <div class="carousel-item carousel-item3">
-                    <div class="carousel-caption d-block">
-                        <h5 class="animate__animated animate__fadeInDown"
-                            style="animation-duration: 1.7s; animation-delay: 0.6s">Giving your home a modern and unique
-                            style</h5>
-                        <p class="animate__animated animate__fadeInDown"
-                            style="animation-duration: 1.7s; animation-delay: 1.7s">
-                            <a href="#">Learn More</a>
-                        </p>
+                    <!-- Slide 1 -->
+                    <div class="carousel-item active" style="background-image: url(images/main-slider/1.jpg)">
+                        <div class="carousel-container">
+                            <div class="container">
+                                <h2 class="animate__animated animate__fadeInDown">Welcome to <span>Sailor</span></h2>
+                                <p class="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui
+                                    aliquid.
+                                    Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia
+                                    ut.
+                                    Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus
+                                    et
+                                    tempore modi architecto.</p>
+                                <a href="#about"
+                                    class="btn-get-started animate__animated animate__fadeInUp scrollto">Read
+                                    More</a>
+                            </div>
+                        </div>
                     </div>
+
+
                 </div>
             </div>
-
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
-                data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
-                data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
-        </div>
-        <!-- hero section end -->
+        </section><!-- End Hero -->
 
 
         <!-- Specialize Section -->
