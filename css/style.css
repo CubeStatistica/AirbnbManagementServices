@@ -1753,7 +1753,7 @@ img {
 
 #hero .carousel-indicators li.active {
 	opacity: 1;
-	background: #d9232d;
+	background: #5a56e3;
 }
 
 #hero .btn-get-started {
@@ -1768,11 +1768,11 @@ img {
 	line-height: 1;
 	color: #fff;
 	animation-delay: 0.8s;
-	background: #d9232d;
+	background: #5a56e3;
 }
 
 #hero .btn-get-started:hover {
-	background: #df3740;
+	background: #5a56e3;
 }
 
 @media (max-width: 992px) {
