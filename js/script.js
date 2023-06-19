@@ -88,113 +88,6 @@
 		});
 	}
 
-
-	//Banner Carousel
-	if ($('.banner-carousel').length) {
-		$('.banner-carousel').owlCarousel({
-			animateOut: 'fadeOut',
-			animateIn: 'fadeIn',
-			loop: true,
-			margin: 0,
-			nav: true,
-			smartSpeed: 700,
-			autoHeight: true,
-			autoplay: true,
-			autoplayTimeout: 10000,
-			navText: ['<span class="fa fa-long-arrow-left"></span> prev', 'next<span class="fa fa-long-arrow-right"></span>'],
-			responsive: {
-				0: {
-					items: 1
-				},
-				600: {
-					items: 1
-				},
-				1024: {
-					items: 1
-				},
-			}
-		});
-	}
-
-	//Banner Carousel Two
-	if ($('.banner-carousel-two').length) {
-		$('.banner-carousel-two').owlCarousel({
-			animateOut: 'fadeOut',
-			animateIn: 'fadeIn',
-			loop: true,
-			margin: 30,
-			nav: true,
-			smartSpeed: 15000,
-			mouseDrag: false,
-			touchDrag: false,
-			autoHeight: true,
-			autoplay: true,
-			autoplayTimeout: 10000,
-			navText: ['<span class="fa fa-long-arrow-left"></span> prev', 'next<span class="fa fa-long-arrow-right"></span>'],
-			responsive: {
-				0: {
-					items: 1
-				},
-				600: {
-					items: 1
-				},
-				1024: {
-					items: 1
-				},
-			}
-		});
-	}
-
-	//Banner Carousel
-	if ($('.banner-carousel-three').length) {
-		$('.banner-carousel-three').owlCarousel({
-			animateOut: 'fadeOut',
-			animateIn: 'fadeIn',
-			loop: true,
-			margin: 0,
-			nav: true,
-			smartSpeed: 700,
-			autoHeight: true,
-			autoplay: true,
-			autoplayTimeout: 10000,
-			navText: ['<span class="fa fa-angle-left"></span>', '<span class="fa fa-angle-right"></span>'],
-			responsive: {
-				0: {
-					items: 1
-				},
-				600: {
-					items: 1
-				},
-				1024: {
-					items: 1
-				},
-			}
-		});
-	}
-
-	//Single Item Carousel
-	if ($('.single-item-carousel').length) {
-		$('.single-item-carousel').owlCarousel({
-			loop: true,
-			margin: 0,
-			nav: true,
-			smartSpeed: 700,
-			autoplay: true,
-			navText: ['<span class="fa fa-angle-left"></span>', '<span class="fa fa-angle-right"></span>'],
-			responsive: {
-				0: {
-					items: 1
-				},
-				600: {
-					items: 1
-				},
-				1024: {
-					items: 1
-				}
-			}
-		});
-	}
-
 	//Services Carousel
 	if ($('.services-carousel-two').length) {
 		$('.services-carousel-two').owlCarousel({
@@ -810,3 +703,26 @@ function shareOnWhatsapp4() {
 		'https://cubestatistica.github.io/AirbnbManagementServices/blog-4.html';
 	window.open(navUrl, '_blank');
 }
+
+/**
+ * Hero carousel indicators
+ */
+/**
+ * Easy selector helper function
+ */
+const select = (el, all = false) => {
+	el = el.trim()
+	if (all) {
+		return [...document.querySelectorAll(el)]
+	} else {
+		return document.querySelector(el)
+	}
+}
+let heroCarouselIndicators = select("#hero-carousel-indicators")
+let heroCarouselItems = select('#heroCarousel .carousel-item', true)
+
+heroCarouselItems.forEach((item, index) => {
+	(index === 0) ?
+		heroCarouselIndicators.innerHTML += "<li data-bs-target='#heroCarousel' data-bs-slide-to='" + index + "' class='active'></li>" :
+		heroCarouselIndicators.innerHTML += "<li data-bs-target='#heroCarousel' data-bs-slide-to='" + index + "'></li>"
+});
