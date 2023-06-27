@@ -2468,248 +2468,89 @@ img {
 ====================================================================
 
 ***/
-
-.featured-area {
-	position: relative;
-	display: block;
-	margin-top: -160px;
-	z-index: 10;
-	background: transparent;
+.services {
+	padding-bottom: 150px;
 }
 
-.single-featured-box {
-	position: relative;
-	display: block;
-	padding-top: 50px;
-	max-width: 370px;
-	width: 100%;
+.services .icon-box {
+	text-align: center;
+	background: #fefefe;
+	box-shadow: 0px 5px 90px 0px rgba(110, 123, 131, 0.1);
+	padding: 80px 20px;
+	transition: all ease-in-out 0.3s;
+}
+
+.services .icon-box .icon {
 	margin: 0 auto;
-	overflow: hidden;
-}
-
-.single-featured-box .inner {
+	width: 64px;
+	height: 64px;
+	background: #5a56e3;
+	border-radius: 5px;
+	transition: all 0.3s ease-out 0s;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 20px;
+	transform-style: preserve-3d;
 	position: relative;
-	display: block;
-	background: #e9212e;
-	transition: all 300ms ease 100ms;
+	z-index: 2;
 }
 
-.single-featured-box .inner .img-holder {
-	position: relative;
-	display: block;
-	width: 255px;
-	height: 270px;
-	float: right;
+.services .icon-box .icon i {
+	color: #fff;
+	font-size: 28px;
 }
 
-.single-featured-box .inner .static-content {
+.services .icon-box .icon::before {
 	position: absolute;
-	left: 0;
-	bottom: 0;
-	width: 100%;
+	content: "";
+	left: -8px;
+	top: -8px;
 	height: 100%;
-	display: block;
-	padding-top: 125px;
-	padding-left: 30px;
-	opacity: 1;
-	visibility: visible;
+	width: 100%;
+	background: #9084fd;
+	border-radius: 5px;
+	transition: all 0.3s ease-out 0s;
+	transform: translateZ(-1px);
 	z-index: 1;
-	transform: translateY(0px);
-	transition: all 500ms ease 100ms;
 }
 
-.single-featured-box:hover .inner .static-content {
-	opacity: 0;
-	visibility: hidden;
-	transform: translateY(50%);
-	transition: all 900ms ease 100ms;
+.services .icon-box h4 {
+	font-weight: 700;
+	margin-bottom: 15px;
+	font-size: 24px;
 }
 
-.single-featured-box .icon {
-	position: relative;
-	display: block;
-	padding-bottom: 20px;
+.services .icon-box h4 a {
+	color: #0b2341;
 }
 
-.single-featured-box .icon span:before {
-	color: #ffffff;
-	font-size: 60px;
-	line-height: 60px;
+.services .icon-box p {
+	line-height: 24px;
+	font-size: 14px;
+	margin-bottom: 0;
 }
 
-.single-featured-box .title {
-	position: relative;
-	display: block;
+.services .icon-box:hover {
+	background: #5a56e3;
+	border-color: #5a56e3;
 }
 
-.single-featured-box .title h3 {
-	color: #ffffff;
-	font-weight: 600;
+.services .icon-box:hover .icon {
+	background: #fff;
 }
 
-.single-featured-box .inner .overlay-content {
-	position: absolute;
-	top: -50px;
-	left: 0;
-	bottom: 0;
-	right: 0;
-	display: block;
-	padding-top: 50px;
-	padding-left: 30px;
-	padding-right: 30px;
-	z-index: 3;
-	background: #27282c;
-	transition: all 300ms ease 100ms;
-	opacity: 0;
-	visibility: hidden;
-	transform: translateY(100%);
-	transition: all 500ms ease 100ms;
+.services .icon-box:hover .icon i {
+	color: #5a56e3;
 }
 
-.single-featured-box:hover .inner .overlay-content {
-	opacity: 1;
-	visibility: visible;
-	transform: translateY(0%);
-	transition: all 900ms ease 100ms;
+.services .icon-box:hover .icon::before {
+	background: #9084fd;
 }
 
-.single-featured-box .inner .overlay-content .icon span:before {
-	color: #e9212e;
-}
-
-.single-featured-box .inner .overlay-content .text {
-	position: relative;
-	display: block;
-	padding-top: 18px;
-	padding-bottom: 0px;
-}
-
-.single-featured-box .inner .overlay-content .text p {
-	color: #ffffff;
-	margin: 0 0 26px;
-}
-
-.single-featured-box .inner .overlay-content .text a {
-	color: #ffffff;
-}
-
-.single-featured-box .overlay-content .overlay-image {
-	position: absolute;
-	bottom: 0;
-	right: 0;
-	width: 255px;
-	height: 00px;
-	opacity: 0;
-	transform: scale(0.5);
-	transition: all 500ms ease 100ms;
-}
-
-.single-featured-box:hover .overlay-content .overlay-image {
-	opacity: 1;
-	height: 270px;
-	transform: scale(1.0);
-	transition: all 900ms ease 500ms;
-}
-
-
-.about-style3-content {
-	position: relative;
-	display: block;
-	padding-top: 110px;
-	padding-bottom: 110px;
-}
-
-.about-style3-content .sec-title {
-	padding-bottom: 40px;
-	margin: 0;
-}
-
-.about-style3-content .sec-title p {
-	margin: 15px 0 27px;
-}
-
-.about-style3-content .button {}
-
-.about-style3-content .button a {
-	padding: 0 40px;
-	margin: 0 13px;
-}
-
-.about-style3-content .button a.black {
-	background: #27282c;
-}
-
-.about-style3-bg {
-	position: absolute;
-	left: 0;
-	top: -60px;
-	width: 100%;
-	height: 100%;
-	background-repeat: no-repeat;
-	background-position: center top;
-	background-size: cover;
-	z-index: -1;
-	opacity: 1;
-}
-
-@-webkit-keyframes banner-animate {
-	0% {
-		-webkit-transform: translateX(-300px);
-		transform: translateX(-300px);
-	}
-
-	50% {
-		-webkit-transform: translateX(-10px);
-		transform: translateX(-10px);
-	}
-
-	100% {
-		-webkit-transform: translateX(-300px);
-		transform: translateX(-300px);
-	}
-}
-
-@keyframes banner-animate {
-	0% {
-		-webkit-transform: translateX(-300px);
-		transform: translateX(-300px);
-	}
-
-	50% {
-		-webkit-transform: translateX(-10px);
-		transform: translateX(-10px);
-	}
-
-	100% {
-		-webkit-transform: translateX(-300px);
-		transform: translateX(-300px);
-	}
-}
-
-.banner-animate {
-	animation-name: banner-animate;
-	animation-duration: 70s;
-	animation-iteration-count: infinite;
-	animation-timing-function: linear;
-	-webkit-animation-name: banner-animate;
-	-webkit-animation-duration: 70s;
-	-webkit-animation-iteration-count: infinite;
-	-webkit-animation-timing-function: linear;
-
-	-moz-animation-name: banner-animate;
-	-moz-animation-duration: 70s;
-	-moz-animation-iteration-count: infinite;
-	-moz-animation-timing-function: linear;
-
-	-ms-animation-name: banner-animate;
-	-ms-animation-duration: 70s;
-	-ms-animation-iteration-count: infinite;
-	-ms-animation-timing-function: linear;
-
-	-o-animation-name: banner-animate;
-	-o-animation-duration: 70s;
-	-o-animation-iteration-count: infinite;
-	-o-animation-timing-function: linear;
+.services .icon-box:hover h4 a,
+.services .icon-box:hover p {
+	color: #fff;
 }
 
 /*** 
