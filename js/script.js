@@ -9,6 +9,17 @@
 		}
 	}
 
+	/**
+ * Animation on scroll
+ */
+	window.addEventListener('load', () => {
+		AOS.init({
+			duration: 1000,
+			easing: 'ease-in-out',
+			once: true,
+			mirror: false
+		})
+	});
 
 	//Update Header Style and Scroll to Top
 	function headerStyle() {
@@ -585,6 +596,9 @@
 	});
 
 })(window.jQuery);
+
+
+
 
 
 // For Blog 1 //
