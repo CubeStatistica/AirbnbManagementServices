@@ -193,45 +193,59 @@ img {
 
 .sec-title {
 	position: relative;
-	margin-bottom: 75px;
-}
-
-.sec-title .float-text {
-	position: absolute;
-	left: 0;
-	top: 0;
-	width: 100%;
-	font-size: 72px;
-	line-height: 1em;
-	color: #2f2f2f;
-	font-weight: 700;
-	text-transform: uppercase;
-	opacity: .10;
-	font-family: "Arimo", sans-serif;
+	margin-bottom: 35px;
 }
 
 .sec-title h2 {
 	position: relative;
-	display: block;
-	font-size: 30px;
-	line-height: 40px;
-	color: #2f2f2f;
-	font-weight: 500;
-	padding: 16px 0;
+	font-size: 36px;
+	color: #322f2f;
+	font-weight: 700;
+	line-height: 1.3em;
+	padding-bottom: 22px;
 }
 
-.sec-title.light .float-text {
-	color: #f2f2f2;
-	opacity: 0.10;
+.sec-title .separate {
+	position: relative;
+	width: 130px;
+	float: left;
+}
+
+.sec-title .separate:before {
+	position: absolute;
+	content: '';
+	left: 0px;
+	bottom: 0px;
+	width: 130px;
+	height: 2px;
+	background-color: #cccccc;
+}
+
+.sec-title .separate:after {
+	position: absolute;
+	content: '';
+	left: 0px !important;
+	bottom: 0px;
+	width: 30px;
+	height: 4px;
+	background-color: #5a56e3;
 }
 
 .sec-title.light h2 {
 	color: #ffffff;
 }
 
-.sec-title.text-center .float-text {
-	right: 0;
+.sec-title.centered {
+	text-align: center;
+}
+
+.sec-title.centered .separate {
 	margin: 0 auto;
+}
+
+.sec-title.centered .separate:after {
+	left: 50% !important;
+	margin-left: -15px !important;
 }
 
 /*** 
