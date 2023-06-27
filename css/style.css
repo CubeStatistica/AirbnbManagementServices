@@ -2518,6 +2518,7 @@ img {
 }
 
 .section-services .single-service {
+	height: 450px;
 	margin-top: 40px;
 	background-color: #f5f5f5;
 	box-shadow: 0 0 10px 0 rgba(0, 0, 0, .1);
