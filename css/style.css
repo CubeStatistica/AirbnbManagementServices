@@ -639,7 +639,7 @@ img {
 
 .header-style-one .header-lower {
 	position: relative;
-	background-color: rgba(0, 0, 0, 0.80);
+	background-color: rgba(255, 255, 255, 0.8);
 	margin: 0 30px;
 	padding: 0 40px;
 }
@@ -651,7 +651,7 @@ img {
 	height: 0;
 	width: 0;
 	border-left: 30px solid transparent;
-	border-top: 100px solid rgba(0, 0, 0, 0.80);
+	border-top: 100px solid rgba(255, 255, 255, 0.8);
 	content: "";
 }
 
@@ -662,7 +662,7 @@ img {
 	height: 0;
 	width: 0;
 	border-right: 30px solid transparent;
-	border-top: 100px solid rgba(0, 0, 0, 0.80);
+	border-top: 100px solid rgba(255, 255, 255, 0.8);
 	content: "";
 }
 
@@ -676,7 +676,7 @@ img {
 }
 
 .header-style-one .main-menu .navigation>li>a {
-	color: #ffffff;
+	color: black;
 }
 
 .header-style-one .main-menu .navigation>li>a:before {
