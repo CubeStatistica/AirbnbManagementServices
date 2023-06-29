@@ -630,43 +630,56 @@ img {
 		Header Style Three
 ===================================*/
 
-.header-style-three {
-	position: relative;
-	background-color: #5a56e3;
+.header-style-one {
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
 }
 
-.header-style-three .logo-box:before {
+.header-style-one .header-lower {
+	position: relative;
+	background-color: rgba(0, 0, 0, 0.80);
+	margin: 0 30px;
+	padding: 0 40px;
+}
+
+.header-style-one .header-lower:before {
 	position: absolute;
 	top: 0;
-	margin-right: -230px;
-	right: 100%;
-	height: 100%;
-	width: 1000%;
-	background-color: #ffffff;
+	left: -30px;
+	height: 0;
+	width: 0;
+	border-left: 30px solid transparent;
+	border-top: 100px solid rgba(0, 0, 0, 0.80);
 	content: "";
-	transform: skew(40deg);
+}
+
+.header-style-one .header-lower:after {
+	position: absolute;
+	top: 0;
+	right: -30px;
+	height: 0;
+	width: 0;
+	border-right: 30px solid transparent;
+	border-top: 100px solid rgba(0, 0, 0, 0.80);
+	content: "";
 }
 
 
-.header-style-three .inner-container {
-	position: relative;
-}
-
-.header-style-three .nav-outer {
+.header-style-one .nav-outer {
 	float: right;
 }
 
-.header-style-three .outer-box {
-	position: relative;
-	float: right;
-	padding: 35px 0;
+.header-style-one .main-menu .navigation>li {
+	margin-left: 35px;
 }
 
-.header-style-three .main-menu .navigation>li>a {
+.header-style-one .main-menu .navigation>li>a {
 	color: #ffffff;
 }
 
-.header-style-three .main-menu .navigation>li>a:before {
+.header-style-one .main-menu .navigation>li>a:before {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -674,7 +687,7 @@ img {
 	margin: 0 auto;
 	height: 0px;
 	width: 2px;
-	background-color: #ffff;
+	background-color: #ff8a00;
 	content: "";
 	-webkit-transition: all 300ms ease;
 	-moz-transition: all 300ms ease;
@@ -683,34 +696,114 @@ img {
 	transition: all 300ms ease;
 }
 
-.header-style-three .main-menu .navigation>li.current>a:before,
-.header-style-three .main-menu .navigation>li:hover>a:before {
+.header-style-one .main-menu .navigation>li.current>a:before,
+.header-style-one .main-menu .navigation>li:hover>a:before {
 	height: 30px;
 }
 
 
-.header-style-three .outer-box {
-	margin-left: 80px;
+.header-style-one .outer-box {
+	padding: 32.5px 0;
+	margin-left: 45px;
 }
 
-.header-style-three .nav-toggler {
+.header-style-one .search-box-btn:hover {
+	color: #ffffff !important;
+}
+
+.header-style-one .search-box-outer .dropdown-menu {
+	top: 20px !important;
+}
+
+
+/*search box btn*/
+
+.main-header .search-box-outer {
 	position: relative;
-	height: 30px;
-	width: 30px;
-	text-align: center;
-	line-height: 30px;
-	font-size: 15px;
-	color: #222222;
-	font-weight: 400;
-	background-color: #ffffff;
-	border-radius: 5px;
-	cursor: pointer;
+	-webkit-transition: all 300ms ease;
+	-moz-transition: all 300ms ease;
+	-ms-transition: all 300ms ease;
+	-o-transition: all 300ms ease;
 	transition: all 300ms ease;
 }
 
-.header-style-three .nav-toggler:hover {
-	background-color: #5a56e3;
-	color: #ffffff;
+.main-header .search-box-btn {
+	position: relative;
+	height: 35px;
+	width: 35px;
+	cursor: pointer;
+	background: none;
+	font-size: 15px;
+	color: #ffa600;
+	line-height: 33px;
+	border: 1px dashed #ffffff;
+	border-radius: 50%;
+	outline: none;
+	-webkit-transition: all 300ms ease;
+	-moz-transition: all 300ms ease;
+	-ms-transition: all 300ms ease;
+	-o-transition: all 300ms ease;
+	transition: all 300ms ease;
+}
+
+.main-header .search-box-btn:hover {
+	color: #ff8a00;
+}
+
+.dropdown-toggle::after {
+	display: none;
+}
+
+.main-header .search-box-outer .dropdown-menu {
+	top: 37px !important;
+	right: 0 !important;
+	left: auto !important;
+	transform: none !important;
+	padding: 0px;
+	width: 280px;
+	border-radius: 0px;
+	border-top: 3px solid #25262c;
+}
+
+.main-header .search-panel .form-container {
+	padding: 25px 20px;
+}
+
+.main-header .search-panel .form-group {
+	position: relative;
+	margin: 0px;
+}
+
+.main-header .search-panel input[type="text"],
+.main-header .search-panel input[type="search"],
+.main-header .search-panel input[type="password"],
+.main-header .search-panel select {
+	display: block;
+	width: 100%;
+	line-height: 24px;
+	padding: 7px 40px 7px 15px;
+	height: 40px;
+	font-size: 14px;
+	border: 1px solid #e0e0e0;
+	background: #ffffff;
+}
+
+.main-header .search-panel input:focus,
+.main-header .search-panel select:focus {
+	border-color: #25262c;
+}
+
+.main-header .search-panel .search-btn {
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	width: 40px;
+	height: 40px;
+	text-align: center;
+	color: #555555;
+	font-size: 12px;
+	background: none;
+	cursor: pointer;
 }
 
 
