@@ -203,6 +203,7 @@ li {
 	z-index: 1;
 	opacity: 0;
 	background-color: #ffffff;
+	color: #0000;
 	-webkit-transition: all 0.4s;
 	-moz-transition: all 0.4s;
 	-o-transition: all 0.4s;
@@ -211,15 +212,6 @@ li {
 	transform: scale(0.5, 1);
 }
 
-.btn-style-one:hover::before {
-	opacity: 1;
-	-webkit-transform: scale(1, 1);
-	transform: scale(1, 1);
-}
-
-.btn-style-one:hover {
-	color: #242424;
-}
 
 /*=== List Style One ===*/
 
