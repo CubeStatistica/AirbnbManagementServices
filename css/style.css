@@ -716,98 +716,6 @@ img {
 }
 
 
-/*search box btn*/
-
-.main-header .search-box-outer {
-	position: relative;
-	-webkit-transition: all 300ms ease;
-	-moz-transition: all 300ms ease;
-	-ms-transition: all 300ms ease;
-	-o-transition: all 300ms ease;
-	transition: all 300ms ease;
-}
-
-.main-header .search-box-btn {
-	position: relative;
-	height: 35px;
-	width: 35px;
-	cursor: pointer;
-	background: none;
-	font-size: 15px;
-	color: #ffa600;
-	line-height: 33px;
-	border: 1px dashed #ffffff;
-	border-radius: 50%;
-	outline: none;
-	-webkit-transition: all 300ms ease;
-	-moz-transition: all 300ms ease;
-	-ms-transition: all 300ms ease;
-	-o-transition: all 300ms ease;
-	transition: all 300ms ease;
-}
-
-.main-header .search-box-btn:hover {
-	color: #ff8a00;
-}
-
-.dropdown-toggle::after {
-	display: none;
-}
-
-.main-header .search-box-outer .dropdown-menu {
-	top: 37px !important;
-	right: 0 !important;
-	left: auto !important;
-	transform: none !important;
-	padding: 0px;
-	width: 280px;
-	border-radius: 0px;
-	border-top: 3px solid #25262c;
-}
-
-.main-header .search-panel .form-container {
-	padding: 25px 20px;
-}
-
-.main-header .search-panel .form-group {
-	position: relative;
-	margin: 0px;
-}
-
-.main-header .search-panel input[type="text"],
-.main-header .search-panel input[type="search"],
-.main-header .search-panel input[type="password"],
-.main-header .search-panel select {
-	display: block;
-	width: 100%;
-	line-height: 24px;
-	padding: 7px 40px 7px 15px;
-	height: 40px;
-	font-size: 14px;
-	border: 1px solid #e0e0e0;
-	background: #ffffff;
-}
-
-.main-header .search-panel input:focus,
-.main-header .search-panel select:focus {
-	border-color: #25262c;
-}
-
-.main-header .search-panel .search-btn {
-	position: absolute;
-	right: 0px;
-	top: 0px;
-	width: 40px;
-	height: 40px;
-	text-align: center;
-	color: #555555;
-	font-size: 12px;
-	background: none;
-	cursor: pointer;
-}
-
-
-
 /*** 
 
 ====================================================================
@@ -1676,7 +1584,7 @@ img {
 
 .box-layout .header-style-four.fixed-header .header-lower,
 .box-layout .sticky-header {
-	max-width: 1370px;
+	width: 1670px;
 	left: 0;
 	right: 0;
 	margin: 0 auto;
