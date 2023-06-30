@@ -337,7 +337,7 @@ img {
 
 .main-header .header-top {
 	position: relative;
-	background-color: #ffffff;
+	background-color: #000000;
 	border-bottom: 1px solid rgba(255, 255, 255, 0.10);
 }
 
@@ -523,7 +523,7 @@ img {
 .header-style-one .header-upper {
 	position: absolute;
 	left: 0;
-	top: 0px;
+	top: 51px;
 }
 
 .main-header .header-upper .logo-outer {
