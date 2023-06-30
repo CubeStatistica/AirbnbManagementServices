@@ -612,7 +612,7 @@ img {
 
 .main-menu .navigation>li>a:before {
 	position: absolute;
-	top: 0;
+	top: -22px;
 	left: 0;
 	right: 0;
 	margin: 0 auto;
@@ -630,7 +630,6 @@ img {
 .main-menu .navigation>li:hover>a:before,
 .main-menu .navigation>li.current>a:before {
 	height: 30px;
-
 	color: #008080;
 }
 
