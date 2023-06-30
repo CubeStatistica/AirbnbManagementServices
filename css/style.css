@@ -60,6 +60,7 @@ body {
 a {
 	text-decoration: none;
 	cursor: pointer;
+	font-weight: bold;
 	color: #008080;
 }
 
@@ -147,6 +148,7 @@ p {
 ul,
 li {
 	list-style: none;
+	font-weight: bold;
 	padding: 0px;
 	margin: 0px;
 }
@@ -513,6 +515,7 @@ img {
 /*=== Header Upper ===*/
 
 .main-header .header-upper {
+	font-weight: bolder;
 	position: relative;
 	width: 100%;
 	top: 0;
@@ -577,6 +580,7 @@ img {
 
 .main-menu .navigation>li {
 	position: relative;
+	/* font-weight: bold; */
 	float: left;
 	padding: 22px 0px;
 	margin-right: 28px;
