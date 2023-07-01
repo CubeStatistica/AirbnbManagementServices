@@ -1685,8 +1685,10 @@ img {
 ====================================================================
 
 ***/
+
 .fluid-section-one {
 	position: relative;
+	margin-top: 150px;
 	background-color: #282d31;
 }
 
@@ -1760,7 +1762,7 @@ img {
 	display: inline-block;
 	margin-left: -40px;
 	margin-top: -40px;
-	background-color: #dfb162;
+	background-color: #ffffff;
 }
 
 .fluid-section-one .image-column .overlay-link .ripple,
@@ -1846,7 +1848,7 @@ img {
 	top: 0px;
 	right: 0px;
 	bottom: 0px;
-	background-color: #dfb162;
+	background-color: #ffffff;
 }
 
 .fluid-section-one .content-column .image-layer {
@@ -1916,7 +1918,7 @@ img {
 }
 
 .fluid-section-one.style-two .content-column .bold-text a {
-	color: #dfb162;
+	color: #b6b2ab;
 }
 
 .fluid-section-one.style-two .list-style-one li:before,
@@ -1925,8 +1927,9 @@ img {
 }
 
 .fluid-section-one.style-three {
-	background-color: #272a2c;
+	background-color: #ffffff;
 }
+
 
 /*** 
 
