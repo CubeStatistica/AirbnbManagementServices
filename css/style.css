@@ -2103,6 +2103,74 @@ img {
 /*** 
 
 ====================================================================
+	Service Section
+====================================================================
+
+***/
+.what-we-section {
+	position: relative;
+	padding-top: 100px;
+}
+
+.what-we-section .pattern-layer {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	background-repeat: no-repeat;
+}
+
+.what-we-section .title-column {
+	position: relative;
+}
+
+.what-we-section .title-column .inner-column {
+	position: relative;
+	padding-right: 45px;
+}
+
+.what-we-section .title-column .text {
+	position: relative;
+	margin-bottom: 30px;
+}
+
+.what-we-section .title-column .text p {
+	position: relative;
+	line-height: 1.7em;
+	color: #777777;
+	font-size: 16px;
+	margin-bottom: 20px;
+}
+
+.what-we-section .title-column .text p:last-child {
+	margin-bottom: 0px;
+}
+
+.what-we-section .title-column .image {
+	position: relative;
+	margin-top: 60px;
+}
+
+.what-we-section .blocks-column {
+	position: relative;
+}
+
+.what-we-section .blocks-column .inner-column {
+	position: relative;
+	padding-top: 50px;
+}
+
+.what-we-section .blocks-column .services-block-two {
+	position: relative;
+	margin-bottom: 40px;
+}
+
+
+
+/*** 
+
+====================================================================
 	Main Footer
 ====================================================================
 
