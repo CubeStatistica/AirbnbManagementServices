@@ -1405,6 +1405,28 @@ img {
 	margin-left: -15px !important;
 }
 
+.sec-title.centered .separate {
+	float: none !important;
+}
+
+.rtl .sec-title.centered .separate:after {
+	right: auto;
+}
+
+.rtl .sec-title .separate:after,
+.rtl .experiance-section .title-column .upper-box .upper-inner:before {
+	right: 0px;
+	left: auto;
+}
+
+.rtl .sec-title .separate {
+	float: right;
+}
+
+.rtl .news-section-two .image-column .inner-column .sec-title .separate {
+	float: right;
+}
+
 /*** 
 
 ====================================================================
@@ -1935,103 +1957,6 @@ img {
 	-o-transition: all 0.3s ease;
 }
 
-.experiance-section .video-column .image .video-box .overlay-box:before {
-	position: absolute;
-	content: '';
-	left: 0px;
-	top: 0px;
-	right: 0px;
-	bottom: 0px;
-	z-index: 10;
-	background-color: rgba(171, 116, 66, 0.95);
-}
-
-.experiance-section .video-column .image .video-box .overlay-box span {
-	position: absolute;
-	width: 60px;
-	height: 60px;
-	left: 50%;
-	top: 50%;
-	z-index: 99;
-	color: #ffffff;
-	font-weight: 400;
-	font-size: 16px;
-	text-align: center;
-	border-radius: 50%;
-	padding-left: 4px;
-	display: inline-block;
-	margin-top: -30px;
-	margin-left: -30px;
-	line-height: 60px;
-	transition: all 900ms ease;
-	-moz-transition: all 900ms ease;
-	-webkit-transition: all 900ms ease;
-	-ms-transition: all 900ms ease;
-	-o-transition: all 900ms ease;
-	background-color: rgba(255, 255, 255, 0.30);
-}
-
-.experiance-section .video-column .image .video-box .overlay-box span:after {
-	position: absolute;
-	content: '';
-	left: -9px;
-	top: -9px;
-	right: -9px;
-	bottom: -9px;
-	border-radius: 50px;
-	border: 1px dashed #ffffff;
-}
-
-.experiance-section .video-column .image .video-box .ripple,
-.experiance-section .video-column .image .video-box .ripple:before,
-.experiance-section .video-column .image .video-box .ripple:after {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	width: 60px;
-	height: 60px;
-	-webkit-transform: translate(-50%, -50%);
-	-moz-transform: translate(-50%, -50%);
-	-ms-transform: translate(-50%, -50%);
-	-o-transform: translate(-50%, -50%);
-	transform: translate(-50%, -50%);
-	-webkit-border-radius: 50%;
-	-moz-border-radius: 50%;
-	-ms-border-radius: 50%;
-	-o-border-radius: 50%;
-	border-radius: 50%;
-	-webkit-box-shadow: 0 0 0 0 rgba(255, 255, 255, .6);
-	-moz-box-shadow: 0 0 0 0 rgba(255, 255, 255, .6);
-	-ms-box-shadow: 0 0 0 0 rgba(255, 255, 255, .6);
-	-o-box-shadow: 0 0 0 0 rgba(255, 255, 255, .6);
-	box-shadow: 0 0 0 0 rgba(255, 255, 255, .6);
-	-webkit-animation: ripple 3s infinite;
-	-moz-animation: ripple 3s infinite;
-	-ms-animation: ripple 3s infinite;
-	-o-animation: ripple 3s infinite;
-	animation: ripple 3s infinite;
-}
-
-.experiance-section .video-column .image .video-box .ripple:before {
-	-webkit-animation-delay: .9s;
-	-moz-animation-delay: .9s;
-	-ms-animation-delay: .9s;
-	-o-animation-delay: .9s;
-	animation-delay: .9s;
-	content: "";
-	position: absolute;
-}
-
-.experiance-section .video-column .image .video-box .ripple:after {
-	-webkit-animation-delay: .6s;
-	-moz-animation-delay: .6s;
-	-ms-animation-delay: .6s;
-	-o-animation-delay: .6s;
-	animation-delay: .6s;
-	content: "";
-	position: absolute;
-}
-
 @-webkit-keyframes ripple {
 	70% {
 		box-shadow: 0 0 0 70px rgba(253, 167, 0, 0);
@@ -2099,6 +2024,236 @@ img {
 .experiance-section.style-two {
 	padding-bottom: 120px;
 }
+
+/*** 
+
+====================================================================
+	Service Section
+====================================================================
+
+***/
+.what-we-section {
+	position: relative;
+	padding-top: 100px;
+}
+
+.what-we-section .pattern-layer {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	background-repeat: no-repeat;
+}
+
+.what-we-section .title-column {
+	position: relative;
+}
+
+.what-we-section .title-column .inner-column {
+	position: relative;
+	padding-right: 45px;
+}
+
+.what-we-section .title-column .text {
+	position: relative;
+	margin-bottom: 30px;
+}
+
+.what-we-section .title-column .text p {
+	position: relative;
+	line-height: 1.7em;
+	color: #777777;
+	font-size: 16px;
+	margin-bottom: 20px;
+}
+
+.what-we-section .title-column .text p:last-child {
+	margin-bottom: 0px;
+}
+
+.what-we-section .title-column .image {
+	position: relative;
+	margin-top: 60px;
+}
+
+.what-we-section .blocks-column {
+	position: relative;
+}
+
+.what-we-section .blocks-column .inner-column {
+	position: relative;
+	padding-top: 50px;
+}
+
+.what-we-section .blocks-column .services-block-two {
+	position: relative;
+	margin-bottom: 40px;
+}
+
+.services-section-two {
+	position: relative;
+	z-index: 2;
+	padding-bottom: 100px;
+}
+
+.services-section-two .owl-theme .services-block-two {
+	margin: 0px 15px;
+}
+
+.services-section-two .owl-carousel {
+	margin: 0px -15px;
+	width: auto;
+}
+
+.services-section-two .owl-nav {
+	display: none;
+}
+
+.services-section-two .owl-dots {
+	position: relative;
+	text-align: center;
+	margin-top: 30px;
+}
+
+.services-section-two .owl-dots .owl-dot {
+	position: relative;
+	width: 10px;
+	height: 10px;
+	margin: 0px 5px;
+	display: inline-block;
+	background-color: #2d353d;
+	-webkit-transition: all 300ms ease;
+	-ms-transition: all 300ms ease;
+	-o-transition: all 300ms ease;
+	-moz-transition: all 300ms ease;
+	transition: all 300ms ease;
+}
+
+.services-section-two .owl-dots .owl-dot.active,
+.services-section-two .owl-dots .owl-dot:hover {
+	width: 30px;
+	background-color: #008080;
+}
+
+.services-section-two .owl-carousel .owl-stage-outer {
+	padding: 25px 0px;
+}
+
+.services-section-two .inner-container {
+	position: relative;
+}
+
+.services-section-two .inner-container.margin-top {
+	position: relative;
+	margin-top: -200px;
+}
+
+.services-block-two {
+	position: relative;
+}
+
+.services-block-two .inner-box {
+	position: relative;
+	padding: 35px 35px;
+	background-color: #ffffff;
+	-webkit-transition: all 300ms ease;
+	-ms-transition: all 300ms ease;
+	-o-transition: all 300ms ease;
+	-moz-transition: all 300ms ease;
+	transition: all 300ms ease;
+	box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+}
+
+.services-block-two .inner-box:before {
+	position: absolute;
+	content: '';
+	left: 0px;
+	bottom: 0px;
+	width: 100%;
+	height: 0px;
+	background-color: #008080;
+	-webkit-transition: all 900ms ease;
+	-ms-transition: all 900ms ease;
+	-o-transition: all 900ms ease;
+	-moz-transition: all 900ms ease;
+	transition: all 900ms ease;
+}
+
+.services-block-two .inner-box:hover::before {
+	height: 100%;
+}
+
+.services-block-two .inner-box .icon-box {
+	position: relative;
+	line-height: 1em;
+	font-size: 64px;
+	color: #008080;
+	-webkit-transition: all 900ms ease;
+	-ms-transition: all 900ms ease;
+	-o-transition: all 900ms ease;
+	-moz-transition: all 900ms ease;
+	transition: all 900ms ease;
+}
+
+.services-block-two .inner-box:hover .icon-box {
+	color: #ffffff;
+}
+
+.services-block-two .inner-box h3 {
+	position: relative;
+	color: #322f2f;
+	font-size: 22px;
+	font-weight: 600;
+	line-height: 1.3em;
+	margin-top: 12px;
+}
+
+.services-block-two .inner-box h3 a {
+	position: relative;
+	color: #322f2f;
+	-webkit-transition: all 900ms ease;
+	-ms-transition: all 900ms ease;
+	-o-transition: all 900ms ease;
+	-moz-transition: all 900ms ease;
+	transition: all 900ms ease;
+}
+
+.services-block-two .inner-box .text {
+	position: relative;
+	color: #777777;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.7em;
+	margin-top: 12px;
+	-webkit-transition: all 900ms ease;
+	-ms-transition: all 900ms ease;
+	-o-transition: all 900ms ease;
+	-moz-transition: all 900ms ease;
+	transition: all 900ms ease;
+}
+
+.services-block-two .inner-box:hover .read-more,
+.services-block-two .inner-box:hover h3 a,
+.services-block-two .inner-box:hover .text {
+	color: #ffffff;
+}
+
+.services-block-two .inner-box .read-more {
+	position: relative;
+	color: #008080;
+	font-size: 16px;
+	font-weight: 600;
+	margin-top: 15px;
+	display: inline-block;
+	-webkit-transition: all 900ms ease;
+	-ms-transition: all 900ms ease;
+	-o-transition: all 900ms ease;
+	-moz-transition: all 900ms ease;
+	transition: all 900ms ease;
+}
+
+
 
 /*** 
 
