@@ -1930,6 +1930,98 @@ img {
 	background-color: #ffffff;
 }
 
+.theme-btn {
+	display: inline-block;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-ms-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+
+.theme-btn i {
+	position: relative;
+	display: inline-block;
+	font-size: 14px;
+	margin-left: 3px;
+}
+
+/* Btn Style Two */
+
+.btn-style-two {
+	position: relative;
+	display: inline-block;
+	font-size: 13px;
+	line-height: 30px;
+	color: #ffffff;
+	padding: 10px 37px;
+	font-weight: 600;
+	overflow: hidden;
+	letter-spacing: 2px;
+	background-color: #000000;
+	text-transform: uppercase;
+	transition: all 600ms ease;
+	-moz-transition: all 600ms ease;
+	-webkit-transition: all 600ms ease;
+	-ms-transition: all 600ms ease;
+	-o-transition: all 600ms ease;
+	font-family: 'Poppins', sans-serif;
+}
+
+.btn-style-two .txt {
+	position: relative;
+	z-index: 1;
+}
+
+.btn-style-two:before {
+	content: '';
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: -50px;
+	transition: all 600ms ease;
+	-moz-transition: all 600ms ease;
+	-webkit-transition: all 600ms ease;
+	-ms-transition: all 600ms ease;
+	-o-transition: all 600ms ease;
+	border-right: 50px solid transparent;
+	border-bottom: 80px solid #008080;
+	-webkit-transform: translateX(-100%);
+	transform: translateX(-100%);
+}
+
+.btn-style-two:hover::before {
+	-webkit-transform: translateX(-49%);
+	transform: translateX(-49%);
+}
+
+.btn-style-two:after {
+	content: '';
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: -50px;
+	transition: all 600ms ease;
+	-moz-transition: all 600ms ease;
+	-webkit-transition: all 600ms ease;
+	-ms-transition: all 600ms ease;
+	-o-transition: all 600ms ease;
+	border-left: 50px solid transparent;
+	border-top: 80px solid #008080;
+	-webkit-transform: translateX(100%);
+	transform: translateX(100%);
+}
+
+.btn-style-two:hover::after {
+	-webkit-transform: translateX(49%);
+	transform: translateX(49%);
+}
+
+.btn-style-two:hover {
+	color: #ffffff;
+}
 
 /*** 
 
