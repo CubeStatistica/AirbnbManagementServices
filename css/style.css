@@ -2213,7 +2213,7 @@ img {
 }
 
 .services-block-two .inner-box:hover .read-more,
-.services-block-two .inner-box:hover h3,
+.services-block-two .inner-box:hover h3 a,
 .services-block-two .inner-box:hover .text {
 	color: #ffffff;
 }
