@@ -2669,6 +2669,8 @@ img {
 
 .testimonial-section-three {
 	position: relative;
+	margin-top: 120px;
+	margin-bottom: 120px;
 	padding: 100px 0px 100px;
 	background-size: cover;
 }
