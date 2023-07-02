@@ -173,6 +173,28 @@ li {
 	text-align: center !important;
 }
 
+/* Btn Style Four */
+
+.btn-style-four {
+	position: relative;
+	display: inline-block;
+	font-size: 15px;
+	line-height: 30px;
+	color: #322f2f;
+	padding: 12px 42px 12px;
+	font-weight: 700;
+	overflow: hidden;
+	border-radius: 50px;
+	border: 2px solid #ffffff;
+	background-color: #ffffff;
+	text-transform: capitalize;
+}
+
+.btn-style-four:hover {
+	color: #ffffff;
+	background: none;
+}
+
 /*Btn Style One*/
 
 .btn-style-one {
@@ -2729,8 +2751,8 @@ img {
 .testimonial-section-three .owl-nav .owl-prev:hover,
 .testimonial-section-three .owl-nav .owl-next:hover {
 	color: #ffffff;
-	border-color: #ab7442;
-	background-color: #ab7442;
+	border-color: #008080;
+	background-color: #008080;
 }
 
 .testimonial-section-three .owl-dots {
@@ -2738,6 +2760,7 @@ img {
 }
 
 .testimonial-block-three {
+	height: 570px;
 	position: relative;
 }
 
@@ -2782,7 +2805,7 @@ img {
 
 .testimonial-block-three .inner-box .upper-box .rating-outer .rating .fa {
 	position: relative;
-	color: #ab7442;
+	color: #008080;
 	font-size: 16px;
 }
 
@@ -2823,6 +2846,71 @@ img {
 .testimonial-block-three.style-two .inner-box .lower-box h3,
 .testimonial-block-three.style-two .inner-box .lower-box .designation {
 	color: #222222;
+}
+
+/*** 
+
+====================================================================
+	Call To Action Section Two
+====================================================================
+
+***/
+
+.call-to-action-section-two {
+	position: relative;
+	overflow: hidden;
+	margin-top: 60px;
+	padding: 45px 0px;
+	background-repeat: repeat-x;
+}
+
+.call-to-action-section-two .title-column {
+	position: relative;
+}
+
+.call-to-action-section-two .title-column .inner-column {
+	position: relative;
+}
+
+.call-to-action-section-two .title-column h2 {
+	position: relative;
+	color: #ffffff;
+	font-size: 26px;
+	font-weight: 700;
+	padding-top: 10px;
+	text-transform: uppercase;
+}
+
+.call-to-action-section-two .btn-column {
+	position: relative;
+}
+
+.call-to-action-section-two .btn-column:before {
+	position: absolute;
+	content: '';
+	left: 0px;
+	top: -100px;
+	bottom: -100px;
+	width: 2000px;
+	border-left: 4px solid #ffffff;
+	transform: skewX(20deg);
+	background-color: #008080;
+}
+
+.call-to-action-section-two .btn-column:after {
+	position: absolute;
+	content: '';
+	left: -10px;
+	top: -100px;
+	bottom: -100px;
+	width: 4px;
+	background-color: #ffffff;
+	transform: skewX(20deg);
+}
+
+.call-to-action-section-two .btn-column .inner-column {
+	position: relative;
+	text-align: right;
 }
 
 /*** 
