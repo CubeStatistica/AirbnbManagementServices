@@ -2688,6 +2688,10 @@ img {
 ====================================================================
 
 ***/
+.testimonial-page-section {
+	position: relative;
+	padding: 100px 0px 70px;
+}
 
 .testimonial-section-three {
 	position: relative;
