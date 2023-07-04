@@ -2,7 +2,6 @@
 
 	"use strict";
 
-
 	//Hide Loading Box (Preloader)
 	function handlePreloader() {
 		if ($('.preloader').length) {
@@ -126,6 +125,7 @@
 	}
 
 
+
 	// Testimonial Carousel
 	if ($('.testimonial-carousel').length) {
 		$('.testimonial-carousel').owlCarousel({
@@ -210,7 +210,6 @@
 			}
 		});
 	}
-
 
 	//
 	//====================================================================//
@@ -469,6 +468,18 @@
 		handlePreloader();
 		sortableMasonry();
 		enableMasonry();
+	});
+
+	/**
+ * Animation on scroll
+ */
+	window.addEventListener('load', () => {
+		AOS.init({
+			duration: 1000,
+			easing: 'ease-in-out',
+			once: true,
+			mirror: false
+		})
 	});
 
 })(window.jQuery);
