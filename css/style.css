@@ -2957,7 +2957,7 @@ img {
 	bottom: 0px;
 	width: 30px;
 	height: 1px;
-	background-color: #dfb162;
+	background-color: #008080;
 }
 
 .main-footer .logo-widget {
@@ -3009,8 +3009,8 @@ img {
 }
 
 .main-footer .logo-widget .social-icons li a:hover {
-	color: #dfb162;
-	border-color: #dfb162;
+	color: #008080;
+	border-color: #008080;
 }
 
 /* Links Widget */
@@ -3145,7 +3145,7 @@ img {
 }
 
 .newsletter-form .form-group input:focus {
-	border-color: #dfb162;
+	border-color: #008080;
 }
 
 .newsletter-form .form-group input[type="submit"],
@@ -3167,6 +3167,6 @@ img {
 
 .main-footer .footer-bottom .purchase {
 	position: relative;
-	color: #dfb162;
+	color: #008080;
 	font-size: 14px;
 }
