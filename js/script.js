@@ -2,6 +2,7 @@
 
 	"use strict";
 
+	AOS.init();
 
 	//Hide Loading Box (Preloader)
 	function handlePreloader() {
