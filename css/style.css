@@ -3453,6 +3453,46 @@ img {
 /*** 
 
 ====================================================================
+	Social Icon Three
+====================================================================
+
+***/
+
+.social-icon-three {
+	position: relative;
+}
+
+.social-icon-three .share {
+	color: #222222;
+	font-size: 16px;
+	font-weight: 700;
+}
+
+.social-icon-three li {
+	position: relative;
+	margin-right: 18px;
+	display: inline-block;
+}
+
+.social-icon-three li a {
+	position: relative;
+	font-size: 18px;
+	color: #777777;
+	display: inline-block;
+	-webkit-transition: all 300ms ease;
+	-ms-transition: all 300ms ease;
+	-o-transition: all 300ms ease;
+	-moz-transition: all 300ms ease;
+	transition: all 300ms ease;
+}
+
+.social-icon-three li a:hover {
+	color: #c08c4d;
+}
+
+/*** 
+
+====================================================================
 	Main Footer
 ====================================================================
 
