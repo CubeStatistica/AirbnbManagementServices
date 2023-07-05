@@ -3373,6 +3373,109 @@ img {
 /*** 
 
 ====================================================================
+	Service Single
+====================================================================
+
+***/
+.service-single {
+	position: relative;
+}
+
+.service-single .inner-box {
+	position: relative;
+}
+
+.service-single .inner-box .image {
+	position: relative;
+}
+
+.service-single .inner-box .image img {
+	position: relative;
+	width: 100%;
+	display: block;
+}
+
+.service-single .inner-box .lower-content {
+	position: relative;
+	padding-top: 25px;
+}
+
+.service-single .inner-box .lower-content h2 {
+	position: relative;
+	color: #222222;
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 1.3em;
+}
+
+.service-single .inner-box .lower-content .text {
+	position: relative;
+	margin-top: 20px;
+}
+
+.service-single .inner-box .lower-content .text p {
+	position: relative;
+	color: #777777;
+	font-size: 14px;
+	line-height: 1.9em;
+	margin-bottom: 20px;
+}
+
+.service-single .inner-box .lower-content h3 {
+	position: relative;
+	color: #222222;
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 1.3em;
+	margin-bottom: 20px;
+}
+
+.service-single .inner-box .lower-content .column {
+	position: relative;
+	margin-bottom: 30px;
+}
+
+.service-single .inner-box .lower-content .contact-box {
+	position: relative;
+}
+
+.service-single .inner-box .lower-content .contact-box .box-inner {
+	position: relative;
+	padding: 45px 25px;
+	text-align: center;
+}
+
+.service-single .inner-box .lower-content .contact-box .box-inner:before {
+	position: absolute;
+	content: '';
+	left: 0px;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	background-color: rgba(34, 34, 34, 0.90);
+}
+
+.service-single .inner-box .lower-content .contact-box h4 {
+	position: relative;
+	color: #ffffff;
+	font-weight: 700;
+	line-height: 1.6em;
+	font-size: 22px;
+	margin-bottom: 20px;
+}
+
+.service-single .inner-box .lower-content .lower-row {
+	position: relative;
+	margin-top: 30px;
+}
+
+.service-single .inner-box .lower-content .lower-row .column {
+	margin-bottom: 0px;
+}
+
+/*** 
+
+====================================================================
 	Main Footer
 ====================================================================
 
