@@ -363,7 +363,7 @@ li {
 
 .list-style-three li:before {
 	position: absolute;
-	content: '\f101';
+	content: '';
 	left: 0px;
 	top: 0px;
 	color: #777777;
@@ -391,7 +391,7 @@ li {
 
 .list-style-two li:before {
 	position: absolute;
-	content: '\f178';
+	content: '';
 	left: 0px;
 	top: 0px;
 	color: #008080;
@@ -3059,7 +3059,7 @@ img {
 
 .blog-cat li a:before {
 	position: absolute;
-	content: '\f178';
+	content: '';
 	right: 22px;
 	top: 18px;
 	color: #322f2f;
