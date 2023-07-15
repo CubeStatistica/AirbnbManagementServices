@@ -3586,6 +3586,158 @@ img {
 /*** 
 
 ====================================================================
+	Analytics Section
+====================================================================
+
+***/
+.fact-counter-section {
+	position: relative;
+	padding-top: 125px;
+}
+
+.fact-counter-section .inner-container {
+	position: relative;
+	padding: 70px 15px 0px 60px;
+}
+
+.fact-counter-section .inner-container:after {
+	position: absolute;
+	content: '';
+	left: 0px;
+	top: 0px;
+	width: 100px;
+	height: 99px;
+	z-index: 1;
+	background: url(../images/background/icon-2.png) no-repeat;
+}
+
+.fact-counter-section .inner-container:before {
+	position: absolute;
+	content: '';
+	left: 0px;
+	top: 0px;
+	width: 2000px;
+	right: 0px;
+	bottom: 0px;
+	z-index: 1;
+	background-color: rgba(50, 47, 47, 0.90);
+}
+
+.fact-counter-section .inner-container .image-layer {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	bottom: 0px;
+	width: 2000px;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.time-counter {
+	position: relative;
+}
+
+.time-counter .time-countdown {
+	position: relative;
+	margin-left: -20px;
+}
+
+.time-counter .time-countdown .counter-column {
+	position: relative;
+	margin-left: 20px;
+	width: 170px;
+	height: 170px;
+	text-align: center;
+	display: inline-block;
+	padding: 30px 0px 10px;
+	border: 6px solid #ffffff;
+	color: #ffffff;
+	font-size: 18px;
+	line-height: 30px;
+	text-transform: uppercase;
+	font-weight: 300;
+	border-radius: 8px;
+	margin-bottom: 30px;
+}
+
+.time-counter .time-countdown .counter-column .count {
+	position: relative;
+	display: block;
+	font-size: 60px;
+	line-height: 40px;
+	padding: 10px 10px;
+	color: #ab7442;
+	letter-spacing: 1px;
+	font-weight: 700;
+}
+
+.services-page-section {
+	position: relative;
+	padding: 100px 0px 70px;
+}
+
+/* Fact Counter */
+
+.fact-counter {
+	position: relative;
+}
+
+.fact-counter .column {
+	position: relative;
+	z-index: 1;
+	margin-bottom: 70px;
+}
+
+.fact-counter .column .inner {
+	position: relative;
+}
+
+.fact-counter .column .inner .content {
+	position: relative;
+}
+
+.fact-counter .count-outer .percentage {
+	display: inline-block;
+	font-weight: 600;
+	color: #020e28;
+	font-size: 48px;
+	line-height: 1em;
+	font-family: 'Archivo', sans-serif;
+}
+
+.fact-counter .column .inner .count-outer {
+	position: relative;
+	font-weight: 600;
+	color: #ffffff;
+	font-size: 60px;
+	line-height: 1em;
+	padding-bottom: 20px;
+	display: inline-block;
+}
+
+.fact-counter .column .inner .count-outer:before {
+	position: absolute;
+	content: '';
+	left: 0px;
+	bottom: 0px;
+	height: 2px;
+	width: 40px;
+	background-color: #ab7442;
+}
+
+.fact-counter .column .inner .counter-title {
+	position: relative;
+	font-size: 16px;
+	font-weight: 500;
+	margin-top: 22px;
+	color: #ffffff;
+	line-height: 1.7em;
+	font-family: 'Raleway', sans-serif;
+}
+
+/*** 
+
+====================================================================
 	Main Footer
 ====================================================================
 
