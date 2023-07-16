@@ -3586,6 +3586,101 @@ img {
 /*** 
 
 ====================================================================
+	Analytics Section
+====================================================================
+
+***/
+.counter-section {
+	position: relative;
+	padding: 75px 0px 40px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+/*fact counter*/
+
+.fact-counter {
+	position: relative;
+}
+
+.fact-counter .column {
+	position: relative;
+	margin-bottom: 50px;
+}
+
+.fact-counter .column .inner {
+	position: relative;
+}
+
+.fact-counter .column .inner .content {
+	position: relative;
+	text-align: center;
+}
+
+.fact-counter .column .inner .icon {
+	position: relative;
+	color: #ea3a60;
+	font-size: 60px;
+	text-align: center;
+	line-height: 1em;
+	font-weight: 400;
+	margin-bottom: 28px;
+	transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-webkit-transition: all 0.3s ease;
+	-ms-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+}
+
+.fact-counter .count-outer .percentage {
+	display: inline-block;
+	font-weight: 600;
+	color: #020e28;
+	font-size: 48px;
+	line-height: 1em;
+}
+
+.fact-counter .column .inner .count-outer {
+	position: relative;
+	font-weight: 700;
+	color: #ffffff;
+	font-size: 40px;
+	line-height: 1em;
+	display: inline-block;
+}
+
+.fact-counter .column .inner .counter-title {
+	position: relative;
+	font-size: 18px;
+	font-weight: 400;
+	margin-top: 14px;
+	color: rgba(255, 255, 255, 0.40);
+}
+
+.counter-section.style-two {
+	/* margin-top: 10px; */
+	/* background-color: #d1d1d1d3; */
+}
+
+
+/* .counter-section.style-two:before {
+	position: absolute;
+	content: '';
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 170px;
+	background-color: #e5e9eb;
+} */
+
+.counter-section.style-two .fact-counter .column .inner .counter-title,
+.counter-section.style-two .fact-counter .column .inner .count-outer {
+	color: #242424;
+}
+
+/*** 
+
+====================================================================
 	Main Footer
 ====================================================================
 
