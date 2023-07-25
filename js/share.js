@@ -6,7 +6,7 @@ function sendMail() {
     var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
 
     // alert("name = " + name);
-    if (firstname == "" && lastname == "" && email == "" && position == "" && company == "" && message == "") {
+    if (firstname == "" && lastname == "" && email == "" && message == "") {
         document.getElementById("error-message").innerHTML = "Above fields are required";
         // alert("Fields are required");
     }
@@ -17,28 +17,22 @@ function sendMail() {
     else if (firstname != ""
         && lastname != ""
         && email != "" && email.match(mailformat)
-        && position != ""
-        && company != ""
         && message != "") {
         var params = {
             firstname: document.getElementById("firstname").value,
             lastname: document.getElementById("lastname").value,
             email: document.getElementById("email").value,
-            position: document.getElementById("position").value,
-            company: document.getElementById("company").value,
             message: document.getElementById("message").value
         };
-        const serviceID = "service_36dx4hr";
-        const templateID = "template_wdbg4jl";
+        const serviceID = "service_odnc4ma";
+        const templateID = "template_56hp8wd";
         emailjs.send(serviceID, templateID, params)
             .then(
                 res => {
                     document.getElementById("firstname").value = "";
                     document.getElementById("lastname").value = "";
                     document.getElementById("email").value = "";
-                    document.getElementById("position").value = "";
                     document.getElementById("message").value = "";
-                    document.getElementById("company").value = "";
                     console.log(res);
                     document.getElementById("error-message").style.display = "none";
                     document.getElementById("sent-message").innerHTML = "Your Message Sent Successfully";
