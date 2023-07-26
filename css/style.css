@@ -2688,6 +2688,48 @@ img {
 	margin-bottom: 25px;
 }
 
+.php-email-form .error-message {
+	/* display: none; */
+	color: #ed3c0d;
+	/* background: #df1529; */
+	text-align: center;
+	/* padding: 15px; */
+	margin-bottom: 24px;
+	font-weight: 600;
+}
+
+.php-email-form .error-message {
+	/* display: none; */
+	color: #ed3c0d;
+	/* background: #ed3c0d; */
+	text-align: center;
+	/* padding: 15px; */
+	font-weight: 600;
+}
+
+.error-message br+br {
+	margin-top: 25px;
+}
+
+.php-email-form .sent-message {
+	/* display: none; */
+	color: #059652;
+	/* background: #18d26e; */
+	text-align: center;
+	/* padding: 15px; */
+	font-weight: 600;
+}
+
+.php-email-form .sent-message {
+	/* display: none; */
+	color: #059652;
+	/* background: #059652; */
+	text-align: center;
+	/* padding: 15px; */
+	margin-bottom: 24px;
+	font-weight: 600;
+}
+
 /* Contact Info */
 
 .contact-info {
