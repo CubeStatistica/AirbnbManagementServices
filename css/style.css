@@ -838,7 +838,8 @@ img {
 	font-family: 'Poppins', sans-serif;
 }
 
-.main-menu .navigation>li>a:before {
+
+.main-menu .navigation>li>a::after {
 	position: absolute;
 	top: -22px;
 	left: 0;
@@ -855,13 +856,17 @@ img {
 	transition: all 300ms ease;
 }
 
-.main-menu .navigation>li:hover>a:before {
+.main-menu .navigation>li:hover>a::after {
 	height: 30px;
 	color: #008080;
 }
 
-.main-menu .navigation>li.current>a:before {
+.main-menu .navigation>li.current>a::after {
 	color: #008080;
+}
+
+.main-menu .navigation>li>a.phone-link::after {
+	content: none;
 }
 
 .main-menu .navigation>li:hover>a,
@@ -945,7 +950,7 @@ img {
 	visibility: visible;
 }
 
-.main-menu .navigation>li>ul>li.dropdown>a:after {
+/* .main-menu .navigation>li>ul>li.dropdown>a:after {
 	font-family: 'Font Awesome 5 Free';
 	content: "\f105";
 	font-weight: 800;
@@ -958,7 +963,7 @@ img {
 	font-size: 14px;
 	text-align: center;
 	z-index: 5;
-}
+} */
 
 .main-menu .navigation>li>ul>li>ul {
 	position: absolute;
@@ -979,6 +984,8 @@ img {
 	-o-transition: all 300ms linear;
 	transition: all 300ms linear;
 }
+
+
 
 .main-menu .navigation>li>ul>li>ul>li {
 	position: relative;
@@ -1012,7 +1019,7 @@ img {
 	border-bottom: 0;
 }
 
-.main-menu .navigation>li>ul>li>ul>li>a:before {
+/* .main-menu .navigation>li>ul>li>ul>li>a:before {
 	position: absolute;
 	left: 0;
 	top: 12px;
@@ -1029,7 +1036,7 @@ img {
 	-ms-transition: all 300ms ease;
 	-o-transition: all 300ms ease;
 	transition: all 300ms ease;
-}
+} */
 
 .main-menu .navigation>li>ul>li>ul>li:hover>a:before {
 	opacity: 1;
