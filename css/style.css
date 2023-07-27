@@ -2299,10 +2299,12 @@ img {
 
 .services-block-two {
 	position: relative;
+
 }
 
 .services-block-two .inner-box {
 	position: relative;
+	height: 350px;
 	padding: 35px 35px;
 	background-color: #ffffff;
 	-webkit-transition: all 300ms ease;
