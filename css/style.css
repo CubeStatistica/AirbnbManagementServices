@@ -2590,8 +2590,8 @@ img {
 ***/
 
 .contact-page-section {
-	/* position: relative; */
-	/* padding: 100px 0px 30px; */
+	position: relative;
+	padding: 100px 0px 30px;
 }
 
 .contact-form .form-group {
