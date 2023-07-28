@@ -8,11 +8,13 @@
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <link href="css/responsive.css" rel="stylesheet">
-
+    <link href="css/flaticon.css" rel="stylesheet">
     <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
     <link rel="icon" href="images/favicon.png" type="image/x-icon">
     <link href="css/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
     <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
 
     <!-- Responsive -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -679,97 +681,110 @@
         </section>
         <!-- End Blog Page Section -->
 
-        <!-- Contact Page Section -->
-        <section class="contact-page-section">
+        <!-- Call To Action Section -->
+        <section class="call-to-action-section" data-aos="fade-up"
+            style="background-image: url(images/background/1.jpg)">
             <div class="auto-container">
-                <div class="row clearfix">
-
-                    <!-- Column -->
-                    <div class="form-column col-lg-8 col-md-12 col-sm-12">
-                        <div class="inner-column">
-                            <!-- Sec Title -->
-                            <div class="sec-title">
-                                <h2>Contact Us Now</h2>
-                                <div class="separate"></div>
-                            </div>
-
-                            <!-- Contact Form -->
-                            <div class="contact-form">
-
-                                <!-- Contact Form -->
-                                <div class="php-email-form" id="contact-form">
-
-                                    <div class="row clearfix">
-
-                                        <div class="col-lg-6 col-md-6 col-sm-12 form-group">
-                                            <input type="text" id="firstname" name="FirstName" placeholder="FirstName"
-                                                required>
-                                        </div>
-
-                                        <div class="col-lg-6 col-md-6 col-sm-12 form-group">
-                                            <input type="text" id="lastname" name="LastName" placeholder="LastName"
-                                                required>
-                                        </div>
-
-                                        <div class="col-lg-12 col-md-12 col-sm-12 form-group">
-                                            <input type="email" id="email" name="email" placeholder="Email" required>
-                                        </div>
-
-                                        <div class="col-lg-12 col-md-12 col-sm-12 form-group">
-                                            <textarea class="darma" id="message" name="message"
-                                                placeholder="Comment..."></textarea>
-                                        </div>
-
-                                        <div id="error-message" class="error-message"></div>
-                                        <div id="sent-message" class="sent-message">
-                                        </div>
-
-                                        <div class="col-lg-12 col-md-12 col-sm-12 form-group">
-                                            <button onclick="sendMail()" class="theme-btn btn-style-two"><span
-                                                    class="txt">Send
-                                                    Now</span></button>
-
-                                        </div>
-
-                                    </div>
-                                </div>
-
-                            </div>
-                            <!-- End Contact Form -->
-
-                        </div>
-                    </div>
-
-                    <!-- Column -->
-                    <div class="info-column col-lg-4 col-md-12 col-sm-12">
-                        <div class="inner-column">
-                            <!-- Sec Title -->
-                            <div class="sec-title">
-                                <h2>Contact info</h2>
-                                <div class="separate"></div>
-                            </div>
-
-                            <ul class="contact-info">
-                                <li>
-                                    <span class="icon bi bi-geo-alt"></span>
-                                    <strong>Address, </strong>
-                                    10 capreol capreol court, Toronto
-                                </li>
-
-                                <li>
-                                    <span class="icon bi bi-telephone"></span>
-                                    <a href="tel:+1 647-648-2979">+1 647-648-2979</a> </br>
-                                    <a href="mailto:info@chezBnB.com">info@chezBnB.com</a>
-                                </li>
-                            </ul>
-
-                        </div>
-                    </div>
-
-                </div>
+                <h2>We’d love to hear from you</h2>
+                <div class="text">Any question? Just write us a message</div>
+                <a href="contact.html" class="theme-btn btn-style-two"><span class="txt">contact us</span></a>
             </div>
         </section>
-        <!-- End Contact Page Section -->
+        <!-- End Call To Action Section -->
+
+
+        <!-- ======= Contact Section ======= -->
+        <section id="contact" class="contact">
+            <div class="container">
+
+                <!-- Sec Title -->
+                <div class="sec-title centered">
+                    <h2>Contact US</h2>
+                    <div class="separate"></div>
+                </div>
+
+            </div>
+
+            <div class="map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621"
+                    frameborder="0" allowfullscreen></iframe>
+            </div><!-- End Google Maps -->
+
+            <div class="container">
+
+                <div class="row gy-5 gx-lg-5">
+
+                    <div class="col-lg-4">
+
+                        <div class="info">
+                            <h3>Get in touch</h3>
+                            <p>Et id eius voluptates atque nihil voluptatem enim in tempore minima sit ad mollitia
+                                commodi
+                                minus.</p>
+
+                            <div class="info-item d-flex">
+                                <i class="bi bi-geo-alt flex-shrink-0"></i>
+                                <div>
+                                    <h4>Location:</h4>
+                                    <p>A108 Adam Street, New York, NY 535022</p>
+                                </div>
+                            </div><!-- End Info Item -->
+
+                            <div class="info-item d-flex">
+                                <i class="bi bi-envelope flex-shrink-0"></i>
+                                <div>
+                                    <h4>Email:</h4>
+                                    <p>info@example.com</p>
+                                </div>
+                            </div><!-- End Info Item -->
+
+                            <div class="info-item d-flex">
+                                <i class="bi bi-phone flex-shrink-0"></i>
+                                <div>
+                                    <h4>Call:</h4>
+                                    <p>+1 5589 55488 55</p>
+                                </div>
+                            </div><!-- End Info Item -->
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-8">
+                        <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                            <div class="row">
+                                <div class="col-md-6 form-group">
+                                    <input type="text" name="name" class="form-control" id="name"
+                                        placeholder="Your Name" required>
+                                </div>
+                                <div class="col-md-6 form-group mt-3 mt-md-0">
+                                    <input type="email" class="form-control" name="email" id="email"
+                                        placeholder="Your Email" required>
+                                </div>
+                            </div>
+                            <div class="form-group mt-3">
+                                <input type="text" class="form-control" name="subject" id="subject"
+                                    placeholder="Subject" required>
+                            </div>
+                            <div class="form-group mt-3">
+                                <textarea class="form-control" name="message" placeholder="Message" required></textarea>
+                            </div>
+                            <div class="my-3">
+                                <div class="loading">Loading</div>
+                                <div class="error-message"></div>
+                                <div class="sent-message">Your message has been sent. Thank you!</div>
+                            </div>
+                            <div class="text-center"><button type="submit">Send Message</button></div>
+                        </form>
+                    </div><!-- End Contact Form -->
+
+                </div>
+
+            </div>
+        </section><!-- End Contact Section -->
+
+
 
         <!--Main Footer-->
         <footer class="main-footer">
