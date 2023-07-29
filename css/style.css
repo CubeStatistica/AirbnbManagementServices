@@ -1312,7 +1312,7 @@ img {
 	height: 100%;
 	max-height: 100%;
 	overflow-y: auto;
-	background: #202020;
+	background: #ffff;
 	padding: 0px 0px;
 	z-index: 5;
 	opacity: 0;
@@ -1344,7 +1344,7 @@ img {
 	width: 24px;
 	text-align: center;
 	font-size: 16px;
-	color: #ffffff;
+	color: #080808;
 	cursor: pointer;
 	z-index: 10;
 	-webkit-transition: all 0.9s ease;
@@ -1396,7 +1396,7 @@ img {
 	padding: 10px 25px;
 	font-size: 14px;
 	font-weight: 400;
-	color: #ffffff;
+	color: #080808;
 	text-transform: uppercase;
 	-webkit-transition: all 500ms ease;
 	-moz-transition: all 500ms ease;
