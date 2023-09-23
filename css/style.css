@@ -3179,6 +3179,11 @@ img {
 	position: relative;
 	text-align: right;
 }
+.rtl .call-to-action-section-two .title-column h2{
+	text-align:right;
+	padding-right:40px;
+}
+
 
 /*** 
 
