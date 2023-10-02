@@ -490,6 +490,17 @@ img {
 	text-transform: capitalize;
 }
 
+.page-title h6 {
+	position: relative;
+	color: #ffffff;
+	font-weight: 800;
+	line-height: 1.2em;
+	/* margin-bottom: 10px; */
+	font-size: 20px;
+	padding-bottom: 18px;
+	text-transform: capitalize;
+}
+
 .page-title h2:before {
 	position: absolute;
 	content: '';
@@ -3123,65 +3134,60 @@ img {
 
 ***/
 
-.call-to-action-section-two {
-	position: relative;
-	overflow: hidden;
-	margin-top: 60px;
-	padding: 45px 0px;
-	background-repeat: repeat-x;
+.call-to-action-section-two{
+	position:relative;
+	overflow:hidden;
+	padding:45px 0px;
+	background-repeat:repeat-x;
 }
 
-.call-to-action-section-two .title-column {
-	position: relative;
+.call-to-action-section-two .title-column{
+	position:relative;
 }
 
-.call-to-action-section-two .title-column .inner-column {
-	position: relative;
+.call-to-action-section-two .title-column .inner-column{
+	position:relative;
 }
 
-.call-to-action-section-two .title-column h2 {
-	position: relative;
-	color: #ffffff;
-	font-size: 26px;
-	font-weight: 700;
-	padding-top: 10px;
-	text-transform: uppercase;
+.call-to-action-section-two .title-column h2{
+	position:relative;
+	color:#ffffff;
+	font-size:26px;
+	font-weight:700;
+	padding-top:10px;
+	text-transform:uppercase;
 }
 
-.call-to-action-section-two .btn-column {
-	position: relative;
+.call-to-action-section-two .btn-column{
+	position:relative;
 }
 
-.call-to-action-section-two .btn-column:before {
-	position: absolute;
-	content: '';
-	left: 0px;
-	top: -100px;
-	bottom: -100px;
-	width: 2000px;
-	border-left: 4px solid #ffffff;
-	transform: skewX(20deg);
-	background-color: #008080;
+.call-to-action-section-two .btn-column:before{
+	position:absolute;
+	content:'';
+	left:0px;
+	top:-100px;
+	bottom:-100px;
+	width:2000px;
+	border-left:4px solid #ffffff;
+	transform:skewX(20deg);
+	background-color:#008080;
 }
 
-.call-to-action-section-two .btn-column:after {
-	position: absolute;
-	content: '';
-	left: -10px;
-	top: -100px;
-	bottom: -100px;
-	width: 4px;
-	background-color: #ffffff;
-	transform: skewX(20deg);
+.call-to-action-section-two .btn-column:after{
+	position:absolute;
+	content:'';
+	left:-10px;
+	top:-100px;
+	bottom:-100px;
+	width:4px;
+	background-color:#ffffff;
+	transform:skewX(20deg);
 }
 
-.call-to-action-section-two .btn-column .inner-column {
-	position: relative;
-	text-align: right;
-}
-.rtl .call-to-action-section-two .title-column h2{
+.call-to-action-section-two .btn-column .inner-column{
+	position:relative;
 	text-align:right;
-	padding-right:40px;
 }
 
 
